@@ -4044,3 +4044,585 @@ Caused by: org.postgresql.util.PSQLException: ERROR: relation "expenses" does no
 2026-04-07 18:41:05,977 INFO c.f.FairshareBackendApplication [restartedMain] Number of customers: 1
 2026-04-07 18:41:05,977 INFO c.f.FairshareBackendApplication [restartedMain] Saving new expense...
 2026-04-07 18:41:05,984 INFO c.f.FairshareBackendApplication [restartedMain] Number of expenses: 1
+2026-04-07 18:48:24,094 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2026-04-07 18:48:24,100 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2026-04-10 17:57:05,599 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-10 17:57:05,613 INFO c.f.FairshareBackendApplication [restartedMain] Starting FairshareBackendApplication using Java 25 with PID 44224 (/Users/buraq-mac/Documents/GitHub/fairshare-backend/target/classes started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-10 17:57:05,614 INFO c.f.FairshareBackendApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2026-04-10 17:57:06,080 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-10 17:57:06,081 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2026-04-10 17:57:06,081 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-10 17:57:06,143 INFO o.h.o.jpa [restartedMain] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-10 17:57:06,164 INFO o.h.o.core [restartedMain] HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-10 17:57:06,308 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2026-04-10 17:57:07,331 WARN o.h.o.j.error [restartedMain] HHH000247: ErrorCode: 0, SQLState: 08001
+2026-04-10 17:57:07,332 WARN o.h.o.j.error [restartedMain] Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+2026-04-10 17:57:07,333 WARN o.h.o.jdbc [restartedMain] HHH100046: Could not obtain connection to query JDBC database metadata
+org.hibernate.exception.JDBCConnectionException: Unable to obtain isolated JDBC connection [Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.] [n/a]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:80)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:34)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:115)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:101)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:51)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:366)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironment(JdbcEnvironmentInitiator.java:143)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:120)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:80)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:133)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:260)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:235)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:212)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:44)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:251)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:203)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:172)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1392)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.populateSessionFactoryBuilder(EntityManagerFactoryBuilderImpl.java:1472)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1454)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:93)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:443)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:436)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:411)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:419)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1864)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1813)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:977)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at com.fairshare.FairshareBackendApplication.main(FairshareBackendApplication.java:60)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52)
+Caused by: org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:373)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:57)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:290)
+	at org.postgresql.Driver.makeConnection(Driver.java:448)
+	at org.postgresql.Driver.connect(Driver.java:298)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:144)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:373)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:210)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:488)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:576)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:97)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111)
+	at org.hibernate.engine.jdbc.connections.internal.DataSourceConnectionProvider.getConnection(DataSourceConnectionProvider.java:137)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:508)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:48)
+	... 40 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:639)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:543)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:284)
+	at java.base/java.net.Socket.connect(Socket.java:659)
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:261)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:122)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:146)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:289)
+	... 54 more
+2026-04-10 17:57:07,340 INFO o.a.c.c.StandardService [restartedMain] Stopping service [Tomcat]
+2026-04-10 17:57:27,663 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-10 17:57:27,676 INFO c.f.FairshareBackendApplication [restartedMain] Starting FairshareBackendApplication using Java 25 with PID 44838 (/Users/buraq-mac/Documents/GitHub/fairshare-backend/target/classes started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-10 17:57:27,677 INFO c.f.FairshareBackendApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2026-04-10 17:57:28,170 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-10 17:57:28,171 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2026-04-10 17:57:28,171 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-10 17:57:28,243 INFO o.h.o.jpa [restartedMain] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-10 17:57:28,262 INFO o.h.o.core [restartedMain] HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-10 17:57:28,429 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2026-04-10 17:57:28,505 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@53db2fc7
+2026-04-10 17:57:28,506 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2026-04-10 17:57:28,540 INFO o.h.o.c.pooling [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/fairshare]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 15.17
+	Default catalog/schema: fairshare/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-10 17:57:28,904 INFO o.h.o.core [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-10 17:57:29,290 INFO o.a.c.h.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2026-04-10 17:57:29,302 INFO c.f.FairshareBackendApplication [restartedMain] Started FairshareBackendApplication in 1.72 seconds (process running for 2.15)
+2026-04-10 17:57:29,303 WARN o.s.c.e.SpringDocAppInitializer [restartedMain] SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-10 17:57:29,303 WARN o.s.c.e.SpringDocAppInitializer [restartedMain] SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-10 17:57:29,389 INFO c.f.FairshareBackendApplication [restartedMain] Number of customers: 0
+2026-04-10 17:57:29,389 INFO c.f.FairshareBackendApplication [restartedMain] Saving new customer...
+2026-04-10 17:57:29,406 INFO c.f.FairshareBackendApplication [restartedMain] Number of customers: 1
+2026-04-10 17:57:29,410 INFO c.f.FairshareBackendApplication [restartedMain] Number of customers: 1
+2026-04-10 17:57:29,411 INFO c.f.FairshareBackendApplication [restartedMain] Saving new expense...
+2026-04-10 17:57:29,420 INFO c.f.FairshareBackendApplication [restartedMain] Number of expenses: 1
+2026-04-10 18:00:30,284 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-10 18:03:18,539 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2026-04-10 18:03:18,540 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2026-04-10 18:03:21,572 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-10 18:03:21,586 INFO c.f.FairshareBackendApplication [restartedMain] Starting FairshareBackendApplication using Java 25 with PID 47482 (/Users/buraq-mac/Documents/GitHub/fairshare-backend/target/classes started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-10 18:03:21,587 INFO c.f.FairshareBackendApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2026-04-10 18:03:22,046 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-10 18:03:22,047 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2026-04-10 18:03:22,047 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-10 18:03:22,113 INFO o.h.o.jpa [restartedMain] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-10 18:03:22,133 INFO o.h.o.core [restartedMain] HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-10 18:03:22,276 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2026-04-10 18:03:22,337 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@64daff46
+2026-04-10 18:03:22,337 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2026-04-10 18:03:22,366 INFO o.h.o.c.pooling [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/fairshare]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 15.17
+	Default catalog/schema: fairshare/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-10 18:03:22,679 INFO o.h.o.core [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-10 18:03:23,018 INFO o.a.c.h.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2026-04-10 18:03:23,027 INFO c.f.FairshareBackendApplication [restartedMain] Started FairshareBackendApplication in 1.548 seconds (process running for 2.006)
+2026-04-10 18:03:23,028 WARN o.s.c.e.SpringDocAppInitializer [restartedMain] SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-10 18:03:23,028 WARN o.s.c.e.SpringDocAppInitializer [restartedMain] SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-10 18:03:23,098 INFO c.f.FairshareBackendApplication [restartedMain] Number of customers: 0
+2026-04-10 18:03:23,099 INFO c.f.FairshareBackendApplication [restartedMain] Saving new customer...
+2026-04-10 18:03:23,113 INFO c.f.FairshareBackendApplication [restartedMain] Number of customers: 1
+2026-04-10 18:03:23,115 INFO c.f.FairshareBackendApplication [restartedMain] Number of customers: 1
+2026-04-10 18:03:23,115 INFO c.f.FairshareBackendApplication [restartedMain] Saving new expense...
+2026-04-10 18:03:23,121 INFO c.f.FairshareBackendApplication [restartedMain] Number of expenses: 1
+2026-04-10 18:03:26,058 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-10 18:04:15,969 INFO o.s.a.AbstractOpenApiResource [http-nio-8080-exec-5] Init duration for springdoc-openapi is: 72 ms
+2026-04-10 18:09:09,145 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2026-04-10 18:09:09,146 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2026-04-10 18:09:11,334 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-10 18:09:11,345 INFO c.f.FairshareBackendApplication [restartedMain] Starting FairshareBackendApplication using Java 25 with PID 49205 (/Users/buraq-mac/Documents/GitHub/fairshare-backend/target/classes started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-10 18:09:11,346 INFO c.f.FairshareBackendApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2026-04-10 18:09:11,756 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-10 18:09:11,756 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2026-04-10 18:09:11,756 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-10 18:09:11,820 INFO o.h.o.jpa [restartedMain] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-10 18:09:11,835 INFO o.h.o.core [restartedMain] HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-10 18:09:11,964 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2026-04-10 18:09:12,022 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@bfc2e3a
+2026-04-10 18:09:12,023 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2026-04-10 18:09:12,052 INFO o.h.o.c.pooling [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/fairshare]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 15.17
+	Default catalog/schema: fairshare/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-10 18:09:12,347 INFO o.h.o.core [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-10 18:09:12,682 INFO o.a.c.h.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2026-04-10 18:09:12,691 INFO c.f.FairshareBackendApplication [restartedMain] Started FairshareBackendApplication in 1.432 seconds (process running for 1.771)
+2026-04-10 18:09:12,692 WARN o.s.c.e.SpringDocAppInitializer [restartedMain] SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-10 18:09:12,692 WARN o.s.c.e.SpringDocAppInitializer [restartedMain] SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-10 18:09:12,759 INFO c.f.FairshareBackendApplication [restartedMain] Number of customers: 0
+2026-04-10 18:09:12,759 INFO c.f.FairshareBackendApplication [restartedMain] Saving new customer...
+2026-04-10 18:09:12,773 INFO c.f.FairshareBackendApplication [restartedMain] Number of customers: 1
+2026-04-10 18:09:12,776 INFO c.f.FairshareBackendApplication [restartedMain] Number of customers: 1
+2026-04-10 18:09:12,776 INFO c.f.FairshareBackendApplication [restartedMain] Saving new expense...
+2026-04-10 18:09:12,783 INFO c.f.FairshareBackendApplication [restartedMain] Number of expenses: 1
+2026-04-10 18:09:44,158 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-10 18:09:44,394 INFO o.s.a.AbstractOpenApiResource [http-nio-8080-exec-9] Init duration for springdoc-openapi is: 85 ms
+2026-04-10 18:09:46,422 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2026-04-10 18:09:46,423 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2026-04-10 18:09:48,925 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-10 18:09:48,936 INFO c.f.FairshareBackendApplication [restartedMain] Starting FairshareBackendApplication using Java 25 with PID 49430 (/Users/buraq-mac/Documents/GitHub/fairshare-backend/target/classes started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-10 18:09:48,937 INFO c.f.FairshareBackendApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2026-04-10 18:09:49,355 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-10 18:09:49,356 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2026-04-10 18:09:49,356 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-10 18:09:49,422 INFO o.h.o.jpa [restartedMain] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-10 18:09:49,437 INFO o.h.o.core [restartedMain] HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-10 18:09:49,568 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2026-04-10 18:09:49,626 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@15441c17
+2026-04-10 18:09:49,626 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2026-04-10 18:09:49,655 INFO o.h.o.c.pooling [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/fairshare]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 15.17
+	Default catalog/schema: fairshare/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-10 18:09:49,955 INFO o.h.o.core [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-10 18:09:50,292 INFO o.a.c.h.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2026-04-10 18:09:50,301 INFO c.f.FairshareBackendApplication [restartedMain] Started FairshareBackendApplication in 1.454 seconds (process running for 1.796)
+2026-04-10 18:09:50,302 WARN o.s.c.e.SpringDocAppInitializer [restartedMain] SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-10 18:09:50,302 WARN o.s.c.e.SpringDocAppInitializer [restartedMain] SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-10 18:09:50,371 INFO c.f.FairshareBackendApplication [restartedMain] Number of customers: 0
+2026-04-10 18:09:50,371 INFO c.f.FairshareBackendApplication [restartedMain] Saving new customer...
+2026-04-10 18:09:50,383 INFO c.f.FairshareBackendApplication [restartedMain] Number of customers: 1
+2026-04-10 18:09:50,385 INFO c.f.FairshareBackendApplication [restartedMain] Number of customers: 1
+2026-04-10 18:09:50,385 INFO c.f.FairshareBackendApplication [restartedMain] Saving new expense...
+2026-04-10 18:09:50,391 INFO c.f.FairshareBackendApplication [restartedMain] Number of expenses: 1
+2026-04-10 18:09:54,753 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-10 18:09:54,951 INFO o.s.a.AbstractOpenApiResource [http-nio-8080-exec-9] Init duration for springdoc-openapi is: 69 ms
+2026-04-10 18:11:06,406 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2026-04-10 18:11:06,407 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2026-04-10 18:11:28,639 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-10 18:11:28,650 INFO c.f.FairshareBackendApplication [restartedMain] Starting FairshareBackendApplication using Java 25 with PID 49919 (/Users/buraq-mac/Documents/GitHub/fairshare-backend/target/classes started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-10 18:11:28,651 INFO c.f.FairshareBackendApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2026-04-10 18:11:29,075 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-10 18:11:29,075 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2026-04-10 18:11:29,076 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-10 18:11:29,138 INFO o.h.o.jpa [restartedMain] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-10 18:11:29,154 INFO o.h.o.core [restartedMain] HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-10 18:11:29,279 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2026-04-10 18:11:29,336 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@8c5f87f
+2026-04-10 18:11:29,336 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2026-04-10 18:11:29,362 INFO o.h.o.c.pooling [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/fairshare]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 15.17
+	Default catalog/schema: fairshare/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-10 18:11:29,654 INFO o.h.o.core [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-10 18:11:29,969 INFO o.a.c.h.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2026-04-10 18:11:29,978 INFO c.f.FairshareBackendApplication [restartedMain] Started FairshareBackendApplication in 1.417 seconds (process running for 1.758)
+2026-04-10 18:11:29,979 WARN o.s.c.e.SpringDocAppInitializer [restartedMain] SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-10 18:11:29,979 WARN o.s.c.e.SpringDocAppInitializer [restartedMain] SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-10 18:11:30,042 INFO c.f.FairshareBackendApplication [restartedMain] Number of customers: 0
+2026-04-10 18:11:30,042 INFO c.f.FairshareBackendApplication [restartedMain] Saving new customer...
+2026-04-10 18:11:30,055 INFO c.f.FairshareBackendApplication [restartedMain] Number of customers: 1
+2026-04-10 18:11:30,057 INFO c.f.FairshareBackendApplication [restartedMain] Number of customers: 1
+2026-04-10 18:11:30,058 INFO c.f.FairshareBackendApplication [restartedMain] Saving new expense...
+2026-04-10 18:11:30,064 INFO c.f.FairshareBackendApplication [restartedMain] Number of expenses: 1
+2026-04-10 18:11:41,587 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-10 18:11:41,831 INFO o.s.a.AbstractOpenApiResource [http-nio-8080-exec-9] Init duration for springdoc-openapi is: 101 ms
+2026-04-10 18:12:05,278 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2026-04-10 18:12:05,279 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2026-04-10 18:12:09,091 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-10 18:12:09,102 INFO c.f.FairshareBackendApplication [restartedMain] Starting FairshareBackendApplication using Java 25 with PID 50135 (/Users/buraq-mac/Documents/GitHub/fairshare-backend/target/classes started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-10 18:12:09,103 INFO c.f.FairshareBackendApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2026-04-10 18:12:09,527 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-10 18:12:09,528 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2026-04-10 18:12:09,528 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-10 18:12:09,591 INFO o.h.o.jpa [restartedMain] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-10 18:12:09,607 INFO o.h.o.core [restartedMain] HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-10 18:12:09,733 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2026-04-10 18:12:09,792 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4e0afb4b
+2026-04-10 18:12:09,793 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2026-04-10 18:12:09,820 INFO o.h.o.c.pooling [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/fairshare]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 15.17
+	Default catalog/schema: fairshare/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-10 18:12:10,123 INFO o.h.o.core [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-10 18:12:10,444 INFO o.a.c.h.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2026-04-10 18:12:10,452 INFO c.f.FairshareBackendApplication [restartedMain] Started FairshareBackendApplication in 1.44 seconds (process running for 1.77)
+2026-04-10 18:12:10,453 WARN o.s.c.e.SpringDocAppInitializer [restartedMain] SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-10 18:12:10,453 WARN o.s.c.e.SpringDocAppInitializer [restartedMain] SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-10 18:12:10,519 INFO c.f.FairshareBackendApplication [restartedMain] Number of customers: 0
+2026-04-10 18:12:10,519 INFO c.f.FairshareBackendApplication [restartedMain] Saving new customer...
+2026-04-10 18:12:10,536 INFO c.f.FairshareBackendApplication [restartedMain] Number of customers: 1
+2026-04-10 18:12:10,538 INFO c.f.FairshareBackendApplication [restartedMain] Number of customers: 1
+2026-04-10 18:12:10,538 INFO c.f.FairshareBackendApplication [restartedMain] Saving new expense...
+2026-04-10 18:12:10,544 INFO c.f.FairshareBackendApplication [restartedMain] Number of expenses: 1
+2026-04-10 18:12:11,963 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-10 18:12:12,151 INFO o.s.a.AbstractOpenApiResource [http-nio-8080-exec-9] Init duration for springdoc-openapi is: 64 ms
+2026-04-10 18:16:13,869 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2026-04-10 18:16:13,870 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2026-04-10 18:16:16,106 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-10 18:16:16,117 INFO c.f.FairshareBackendApplication [restartedMain] Starting FairshareBackendApplication using Java 25 with PID 51411 (/Users/buraq-mac/Documents/GitHub/fairshare-backend/target/classes started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-10 18:16:16,118 INFO c.f.FairshareBackendApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2026-04-10 18:16:16,557 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-10 18:16:16,557 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2026-04-10 18:16:16,557 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-10 18:16:16,620 INFO o.h.o.jpa [restartedMain] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-10 18:16:16,637 INFO o.h.o.core [restartedMain] HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-10 18:16:16,765 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2026-04-10 18:16:16,821 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@78ac2b20
+2026-04-10 18:16:16,822 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2026-04-10 18:16:16,853 INFO o.h.o.c.pooling [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/fairshare]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 15.17
+	Default catalog/schema: fairshare/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-10 18:16:17,149 INFO o.h.o.core [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-10 18:16:17,486 INFO o.a.c.h.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2026-04-10 18:16:17,506 INFO c.f.FairshareBackendApplication [restartedMain] Started FairshareBackendApplication in 1.475 seconds (process running for 1.806)
+2026-04-10 18:16:17,509 WARN o.s.c.e.SpringDocAppInitializer [restartedMain] SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-10 18:16:17,509 WARN o.s.c.e.SpringDocAppInitializer [restartedMain] SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-10 18:16:17,586 INFO c.f.FairshareBackendApplication [restartedMain] Number of customers: 0
+2026-04-10 18:16:17,586 INFO c.f.FairshareBackendApplication [restartedMain] Saving new customer...
+2026-04-10 18:16:17,601 INFO c.f.FairshareBackendApplication [restartedMain] Number of customers: 1
+2026-04-10 18:16:17,604 INFO c.f.FairshareBackendApplication [restartedMain] Number of customers: 1
+2026-04-10 18:16:17,604 INFO c.f.FairshareBackendApplication [restartedMain] Saving new expense...
+2026-04-10 18:16:17,612 INFO c.f.FairshareBackendApplication [restartedMain] Number of expenses: 1
+2026-04-10 18:16:24,982 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-10 18:18:33,719 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-10 18:18:33,724 INFO c.f.FairshareBackendApplicationTests [main] Starting FairshareBackendApplicationTests using Java 25 with PID 52067 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-10 18:18:33,725 INFO c.f.FairshareBackendApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-10 18:18:34,193 INFO o.h.o.jpa [main] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-10 18:18:34,212 INFO o.h.o.core [main] HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-10 18:18:34,378 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2026-04-10 18:18:34,445 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@29d29657
+2026-04-10 18:18:34,445 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2026-04-10 18:18:34,476 INFO o.h.o.c.pooling [main] HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/fairshare]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 15.17
+	Default catalog/schema: fairshare/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-10 18:18:34,881 INFO o.h.o.core [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-10 18:18:35,401 INFO c.f.FairshareBackendApplicationTests [main] Started FairshareBackendApplicationTests in 1.744 seconds (process running for 2.503)
+2026-04-10 18:18:35,403 WARN o.s.c.e.SpringDocAppInitializer [main] SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-10 18:18:35,403 WARN o.s.c.e.SpringDocAppInitializer [main] SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-10 18:18:35,504 INFO c.f.FairshareBackendApplication [main] Number of customers: 0
+2026-04-10 18:18:35,504 INFO c.f.FairshareBackendApplication [main] Saving new customer...
+2026-04-10 18:18:35,522 INFO c.f.FairshareBackendApplication [main] Number of customers: 1
+2026-04-10 18:18:35,525 INFO c.f.FairshareBackendApplication [main] Number of customers: 1
+2026-04-10 18:18:35,525 INFO c.f.FairshareBackendApplication [main] Saving new expense...
+2026-04-10 18:18:35,534 INFO c.f.FairshareBackendApplication [main] Number of expenses: 1
+2026-04-10 18:18:35,857 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2026-04-10 18:18:35,858 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2026-04-10 18:19:02,284 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2026-04-10 18:19:02,285 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2026-04-13 18:22:46,964 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-13 18:22:46,970 INFO c.f.FairshareBackendApplicationTests [main] Starting FairshareBackendApplicationTests using Java 25 with PID 25968 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-13 18:22:46,975 INFO c.f.FairshareBackendApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-13 18:22:47,441 INFO o.h.o.jpa [main] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-13 18:22:47,468 INFO o.h.o.core [main] HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-13 18:22:47,644 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2026-04-13 18:22:47,744 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@752ffce3
+2026-04-13 18:22:47,744 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2026-04-13 18:22:47,783 INFO o.h.o.c.pooling [main] HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/fairshare]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 15.17
+	Default catalog/schema: fairshare/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-13 18:22:48,153 INFO o.h.o.core [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-13 18:22:48,606 INFO c.f.FairshareBackendApplicationTests [main] Started FairshareBackendApplicationTests in 1.719 seconds (process running for 2.557)
+2026-04-13 18:22:48,607 WARN o.s.c.e.SpringDocAppInitializer [main] SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-13 18:22:48,607 WARN o.s.c.e.SpringDocAppInitializer [main] SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-13 18:22:48,686 INFO c.f.FairshareBackendApplication [main] Number of customers: 0
+2026-04-13 18:22:48,686 INFO c.f.FairshareBackendApplication [main] Saving new customer...
+2026-04-13 18:22:48,704 INFO c.f.FairshareBackendApplication [main] Number of customers: 1
+2026-04-13 18:22:48,707 INFO c.f.FairshareBackendApplication [main] Number of customers: 1
+2026-04-13 18:22:48,707 INFO c.f.FairshareBackendApplication [main] Saving new expense...
+2026-04-13 18:22:48,714 INFO c.f.FairshareBackendApplication [main] Number of expenses: 1
+2026-04-13 18:22:48,836 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2026-04-13 18:22:48,837 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2026-04-13 18:42:00,146 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-13 18:42:00,161 INFO c.f.C.UserControllerTests [main] Starting UserControllerTests using Java 25 with PID 38042 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-13 18:42:00,163 INFO c.f.C.UserControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-13 18:42:57,763 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-13 18:42:57,775 INFO c.f.C.UserControllerTests [main] Starting UserControllerTests using Java 25 with PID 38678 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-13 18:42:57,776 INFO c.f.C.UserControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-13 18:43:31,304 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-13 18:43:31,317 INFO c.f.C.UserControllerTests [main] Starting UserControllerTests using Java 25 with PID 39030 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-13 18:43:31,318 INFO c.f.C.UserControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-13 18:46:55,161 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-13 18:46:55,176 INFO c.f.C.UserControllerTests [main] Starting UserControllerTests using Java 25 with PID 41214 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-13 18:46:55,178 INFO c.f.C.UserControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-13 18:46:55,836 INFO c.f.C.UserControllerTests [main] Started UserControllerTests in 0.757 seconds (process running for 1.379)
+2026-04-13 18:48:08,787 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-13 18:48:08,800 INFO c.f.C.UserControllerTests [main] Starting UserControllerTests using Java 25 with PID 41967 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-13 18:48:08,801 INFO c.f.C.UserControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-13 18:48:09,512 INFO c.f.C.UserControllerTests [main] Started UserControllerTests in 0.806 seconds (process running for 1.404)
+2026-04-13 18:48:32,305 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-13 18:48:32,317 INFO c.f.C.UserControllerTests [main] Starting UserControllerTests using Java 25 with PID 42244 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-13 18:48:32,318 INFO c.f.C.UserControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-13 18:48:33,057 INFO c.f.C.UserControllerTests [main] Started UserControllerTests in 0.833 seconds (process running for 1.436)
+2026-04-13 18:49:54,399 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-13 18:49:54,411 INFO c.f.C.UserControllerTests [main] Starting UserControllerTests using Java 25 with PID 43113 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-13 18:49:54,412 INFO c.f.C.UserControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-13 18:49:55,142 INFO c.f.C.UserControllerTests [main] Started UserControllerTests in 0.826 seconds (process running for 1.456)
+2026-04-13 19:59:43,070 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-13 19:59:43,083 INFO c.f.C.UserControllerTests [main] Starting UserControllerTests using Java 25 with PID 46629 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-13 19:59:43,084 INFO c.f.C.UserControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-13 19:59:43,826 INFO c.f.C.UserControllerTests [main] Started UserControllerTests in 0.842 seconds (process running for 1.576)
+2026-04-13 20:03:17,293 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-13 20:03:17,305 INFO c.f.C.UserControllerTests [main] Starting UserControllerTests using Java 25 with PID 48807 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-13 20:03:17,307 INFO c.f.C.UserControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-13 20:03:18,033 INFO c.f.C.UserControllerTests [main] Started UserControllerTests in 0.82 seconds (process running for 1.642)
+2026-04-15 17:24:38,840 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-15 17:24:38,854 INFO c.f.C.UserControllerTests [main] Starting UserControllerTests using Java 25 with PID 31631 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-15 17:24:38,856 INFO c.f.C.UserControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-15 17:24:39,648 INFO c.f.C.UserControllerTests [main] Started UserControllerTests in 0.892 seconds (process running for 1.543)
+2026-04-15 17:25:46,896 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-15 17:25:46,909 INFO c.f.C.UserControllerTests [main] Starting UserControllerTests using Java 25 with PID 32269 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-15 17:25:46,911 INFO c.f.C.UserControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-15 17:25:48,133 INFO c.f.C.UserControllerTests [main] Started UserControllerTests in 1.332 seconds (process running for 2.085)
+2026-04-15 17:25:59,739 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-15 17:25:59,748 INFO c.f.FairshareBackendApplicationTests [main] Starting FairshareBackendApplicationTests using Java 25 with PID 32390 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-15 17:25:59,750 INFO c.f.FairshareBackendApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-15 17:26:00,378 INFO o.h.o.jpa [main] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-15 17:26:00,406 INFO o.h.o.core [main] HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-15 17:26:00,623 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2026-04-15 17:26:00,713 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@39fc17be
+2026-04-15 17:26:00,714 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2026-04-15 17:26:00,754 INFO o.h.o.c.pooling [main] HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/fairshare]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 15.17
+	Default catalog/schema: fairshare/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-15 17:26:01,662 INFO o.h.o.core [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-15 17:26:02,405 INFO c.f.FairshareBackendApplicationTests [main] Started FairshareBackendApplicationTests in 2.738 seconds (process running for 3.575)
+2026-04-15 17:26:02,406 WARN o.s.c.e.SpringDocAppInitializer [main] SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-15 17:26:02,406 WARN o.s.c.e.SpringDocAppInitializer [main] SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-15 17:26:02,407 INFO c.f.c.DataInitializer [main] Systeem gestart, data inladen...
+2026-04-15 17:26:02,586 INFO c.f.c.DataInitializer [main] Aantal users: 1
+2026-04-15 17:26:02,744 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2026-04-15 17:26:02,746 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2026-04-15 17:26:09,239 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-15 17:26:09,254 INFO c.f.C.UserControllerTests [main] Starting UserControllerTests using Java 25 with PID 32450 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-15 17:26:09,256 INFO c.f.C.UserControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-15 17:26:10,190 INFO c.f.C.UserControllerTests [main] Started UserControllerTests in 1.036 seconds (process running for 1.739)
+2026-04-15 17:30:55,255 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-15 17:30:55,268 INFO c.f.C.UserControllerTests [main] Starting UserControllerTests using Java 25 with PID 33879 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-15 17:30:55,269 INFO c.f.C.UserControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-15 17:30:55,985 INFO c.f.C.UserControllerTests [main] Started UserControllerTests in 0.816 seconds (process running for 1.418)
+2026-04-15 17:32:27,416 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-15 17:32:27,427 INFO c.f.C.UserControllerTests [main] Starting UserControllerTests using Java 25 with PID 34347 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-15 17:32:27,428 INFO c.f.C.UserControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-15 17:32:28,278 INFO c.f.C.UserControllerTests [main] Started UserControllerTests in 0.945 seconds (process running for 1.562)
+2026-04-15 17:33:43,694 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-15 17:33:43,705 INFO c.f.C.UserControllerTests [main] Starting UserControllerTests using Java 25 with PID 34746 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-15 17:33:43,706 INFO c.f.C.UserControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-15 17:33:44,420 INFO c.f.C.UserControllerTests [main] Started UserControllerTests in 0.809 seconds (process running for 1.452)
+2026-04-15 17:34:35,126 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-15 17:34:35,139 INFO c.f.C.UserControllerTests [main] Starting UserControllerTests using Java 25 with PID 34997 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-15 17:34:35,140 INFO c.f.C.UserControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-15 17:34:35,858 INFO c.f.C.UserControllerTests [main] Started UserControllerTests in 0.807 seconds (process running for 1.42)
+2026-04-15 17:35:45,594 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-15 17:35:45,613 INFO c.f.C.UserControllerTests [main] Starting UserControllerTests using Java 25 with PID 35366 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-15 17:35:45,614 INFO c.f.C.UserControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-15 17:35:46,325 INFO c.f.C.UserControllerTests [main] Started UserControllerTests in 0.813 seconds (process running for 1.434)
+2026-04-15 17:35:54,948 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-15 17:35:54,960 INFO c.f.C.UserControllerTests [main] Starting UserControllerTests using Java 25 with PID 35419 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-15 17:35:54,962 INFO c.f.C.UserControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-15 17:35:55,691 INFO c.f.C.UserControllerTests [main] Started UserControllerTests in 0.823 seconds (process running for 1.462)
+2026-04-15 17:35:55,825 INFO c.f.FairshareBackendApplicationTests [main] Starting FairshareBackendApplicationTests using Java 25 with PID 35419 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-15 17:35:55,825 INFO c.f.FairshareBackendApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-15 17:35:56,087 INFO o.h.o.jpa [main] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-15 17:35:56,114 INFO o.h.o.core [main] HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-15 17:35:56,227 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2026-04-15 17:35:56,300 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2f0dae44
+2026-04-15 17:35:56,300 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2026-04-15 17:35:56,334 INFO o.h.o.c.pooling [main] HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/fairshare]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 15.17
+	Default catalog/schema: fairshare/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-15 17:35:56,647 INFO o.h.o.core [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-15 17:35:56,931 INFO c.f.FairshareBackendApplicationTests [main] Started FairshareBackendApplicationTests in 1.119 seconds (process running for 2.702)
+2026-04-15 17:35:56,932 WARN o.s.c.e.SpringDocAppInitializer [main] SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-15 17:35:56,932 WARN o.s.c.e.SpringDocAppInitializer [main] SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-15 17:35:56,932 INFO c.f.c.DataInitializer [main] Systeem gestart, data inladen...
+2026-04-15 17:35:57,092 INFO c.f.c.DataInitializer [main] Aantal users: 1
+2026-04-15 17:35:57,098 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2026-04-15 17:35:57,099 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2026-04-15 17:50:25,510 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-15 17:50:25,521 INFO c.f.C.UserControllerTests [main] Starting UserControllerTests using Java 25 with PID 39856 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-15 17:50:25,522 INFO c.f.C.UserControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-15 17:50:26,239 INFO c.f.C.UserControllerTests [main] Started UserControllerTests in 0.814 seconds (process running for 1.442)
+2026-04-15 17:50:35,653 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-15 17:50:35,664 INFO c.f.C.UserControllerTests [main] Starting UserControllerTests using Java 25 with PID 39920 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-15 17:50:35,665 INFO c.f.C.UserControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-15 17:50:36,670 INFO c.f.C.UserControllerTests [main] Started UserControllerTests in 1.091 seconds (process running for 1.671)
+2026-04-15 17:51:28,849 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-15 17:51:28,860 INFO c.f.C.UserControllerTests [main] Starting UserControllerTests using Java 25 with PID 40184 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-15 17:51:28,861 INFO c.f.C.UserControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-15 17:51:29,619 INFO c.f.C.UserControllerTests [main] Started UserControllerTests in 0.851 seconds (process running for 1.534)
+2026-04-15 17:51:38,266 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-15 17:51:38,279 INFO c.f.C.UserControllerTests [main] Starting UserControllerTests using Java 25 with PID 40236 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-15 17:51:38,280 INFO c.f.C.UserControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-15 17:51:38,976 INFO c.f.C.UserControllerTests [main] Started UserControllerTests in 0.803 seconds (process running for 1.498)
+2026-04-15 18:00:51,561 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-15 18:00:51,572 INFO c.f.C.GroupControllerTests [main] Starting GroupControllerTests using Java 25 with PID 43089 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-15 18:00:51,573 INFO c.f.C.GroupControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-15 18:00:52,280 INFO c.f.C.GroupControllerTests [main] Started GroupControllerTests in 0.803 seconds (process running for 1.423)
+2026-04-15 18:03:03,303 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-15 18:03:03,315 INFO c.f.C.GroupControllerTests [main] Starting GroupControllerTests using Java 25 with PID 43746 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-15 18:03:03,316 INFO c.f.C.GroupControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-15 18:03:04,033 INFO c.f.C.GroupControllerTests [main] Started GroupControllerTests in 0.811 seconds (process running for 1.44)
+2026-04-15 18:03:13,091 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-15 18:03:13,103 INFO c.f.C.GroupControllerTests [main] Starting GroupControllerTests using Java 25 with PID 43803 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-15 18:03:13,104 INFO c.f.C.GroupControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-15 18:03:13,826 INFO c.f.C.GroupControllerTests [main] Started GroupControllerTests in 0.818 seconds (process running for 1.412)
+2026-04-15 18:05:00,528 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-15 18:05:00,540 INFO c.f.C.GroupControllerTests [main] Starting GroupControllerTests using Java 25 with PID 44359 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-15 18:05:00,541 INFO c.f.C.GroupControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-15 18:05:01,248 INFO c.f.C.GroupControllerTests [main] Started GroupControllerTests in 0.801 seconds (process running for 1.454)
+2026-04-15 18:05:05,772 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-15 18:05:05,784 INFO c.f.C.GroupControllerTests [main] Starting GroupControllerTests using Java 25 with PID 44367 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-15 18:05:05,785 INFO c.f.C.GroupControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-15 18:05:06,475 INFO c.f.C.GroupControllerTests [main] Started GroupControllerTests in 0.778 seconds (process running for 1.37)
+2026-04-15 18:05:42,989 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-15 18:05:43,001 INFO c.f.C.GroupControllerTests [main] Starting GroupControllerTests using Java 25 with PID 44572 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-15 18:05:43,002 INFO c.f.C.GroupControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-15 18:05:43,716 INFO c.f.C.GroupControllerTests [main] Started GroupControllerTests in 0.805 seconds (process running for 1.392)
