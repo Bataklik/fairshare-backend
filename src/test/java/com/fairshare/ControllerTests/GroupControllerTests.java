@@ -15,6 +15,7 @@ import org.springframework.test.context.bean.override.mockito.MockitoBean;
 import org.springframework.test.web.servlet.MockMvc;
 
 import java.util.Arrays;
+import java.util.List;
 import java.util.Optional;
 
 import static org.mockito.Mockito.when;
@@ -48,8 +49,8 @@ public class GroupControllerTests {
     @WithMockUser
     public void getAllGroups_returns_AllGroups() throws Exception {
         //? Arrange
-        Group group_a = new Group(1L,"De spenders");
-        Group group_b = new Group(2L, "Gulzigen");
+        Group group_a = new Group(1L,"De spenders", List.of());
+        Group group_b = new Group(2L, "Gulzigen",List.of());
         when(groupServiceMock.getAllGroups())
                 .thenReturn(Arrays.asList(group_a, group_b));
 
@@ -64,7 +65,7 @@ public class GroupControllerTests {
     @WithMockUser
     public void getGroup_returns_Group() throws Exception {
         //? Arrange
-        Group group_b = new Group(2L, "Gulzigen");
+        Group group_b = new Group(2L, "Gulzigen",List.of());
         when(groupServiceMock.getGroup(2L))
                 .thenReturn(Optional.of(group_b));
 
@@ -78,8 +79,8 @@ public class GroupControllerTests {
     @WithMockUser
     public void createUser_returns_CreatedUser() throws Exception {
         //? Arrange
-        String groupJson = "{\"id\":1, \"name\":\"Gulzigen\"}";
-        Group createGroup = new Group(1L, "Gulzigen");
+        String groupJson = "{\"id\":1, \"name\":\"Gulzigen\", \"users\":[]}";
+        Group createGroup = new Group(1L, "Gulzigen",List.of());
         when(groupServiceMock.createGroup(createGroup))
                 .thenReturn(createGroup);
 
