@@ -14,6 +14,7 @@ import org.springframework.test.context.bean.override.mockito.MockitoBean;
 import org.springframework.test.web.servlet.MockMvc;
 
 import java.util.Arrays;
+import java.util.List;
 import java.util.Optional;
 
 import static org.mockito.Mockito.when;
@@ -45,8 +46,8 @@ public class UserControllerTests {
     @WithMockUser
     public void getAllUsers_returns_AllUsers() throws Exception {
         //? Arrange
-        User user_a = new User(1L, "Jan");
-        User user_b = new User(2L, "Piet");
+        User user_a = new User(1L, "Jan", List.of());
+        User user_b = new User(2L, "Piet",List.of());
         when(userServiceMock.getAllUsers())
                 .thenReturn(Arrays.asList(user_a, user_b));
 
@@ -61,7 +62,7 @@ public class UserControllerTests {
     @WithMockUser
     public void getUser_returns_User() throws Exception {
         //? Arrange
-        User user_b = new User(2L, "Piet");
+        User user_b = new User(2L, "Piet",List.of());
         when(userServiceMock.getUser(2L))
                 .thenReturn(Optional.of(user_b));
 
@@ -75,8 +76,8 @@ public class UserControllerTests {
     @WithMockUser
     public void createUser_returns_CreatedUser() throws Exception {
         //? Arrange
-        String userJson = "{\"id\":1, \"name\":\"Karel\"}";
-        User createUser = new User(1L, "Karel");
+        String userJson = "{\"id\":1, \"name\":\"Karel\",\"groups\":[]}";
+        User createUser = new User(1L, "Karel",List.of());
         when(userServiceMock.createUser(createUser))
                 .thenReturn(createUser);
 

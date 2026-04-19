@@ -5891,3 +5891,35 @@ org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique co
 2026-04-19 14:20:59,450 INFO c.f.C.GroupControllerTests [main] Starting GroupControllerTests using Java 25 with PID 29754 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
 2026-04-19 14:20:59,451 INFO c.f.C.GroupControllerTests [main] No active profile set, falling back to 1 default profile: "default"
 2026-04-19 14:21:00,178 INFO c.f.C.GroupControllerTests [main] Started GroupControllerTests in 0.826 seconds (process running for 1.479)
+2026-04-19 14:22:13,698 INFO o.a.c.h.Http11NioProtocol [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
+2026-04-19 14:22:13,706 INFO o.a.c.h.Http11NioProtocol [Thread-1] Stopping ProtocolHandler ["http-nio-8080"]
+2026-04-19 14:22:13,714 INFO c.z.h.HikariDataSource [Thread-1] HikariPool-1 - Shutdown initiated...
+2026-04-19 14:22:13,715 INFO c.z.h.HikariDataSource [Thread-1] HikariPool-1 - Shutdown completed.
+2026-04-19 14:22:13,796 INFO c.f.FairshareBackendApplication [restartedMain] Starting FairshareBackendApplication using Java 25 with PID 29608 (/Users/buraq-mac/Documents/GitHub/fairshare-backend/target/classes started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-19 14:22:13,796 INFO c.f.FairshareBackendApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2026-04-19 14:22:13,921 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-19 14:22:13,921 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2026-04-19 14:22:13,921 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-19 14:22:13,938 INFO o.h.o.jpa [restartedMain] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-19 14:22:13,946 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2026-04-19 14:22:13,966 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@61edb48f
+2026-04-19 14:22:13,967 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2026-04-19 14:22:13,974 INFO o.h.o.c.pooling [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/fairshare]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 15.17
+	Default catalog/schema: fairshare/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-19 14:22:14,003 INFO o.h.o.core [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-19 14:22:14,132 INFO o.a.c.h.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2026-04-19 14:22:14,134 INFO c.f.FairshareBackendApplication [restartedMain] Started FairshareBackendApplication in 0.358 seconds (process running for 104.897)
+2026-04-19 14:22:14,134 WARN o.s.c.e.SpringDocAppInitializer [restartedMain] SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-19 14:22:14,134 WARN o.s.c.e.SpringDocAppInitializer [restartedMain] SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-19 14:22:14,134 INFO c.f.c.DataInitializer [restartedMain] Systeem gestart, data inladen...
+2026-04-19 14:22:14,149 INFO c.f.c.DataInitializer [restartedMain] Aantal users: 5
