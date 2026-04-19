@@ -4,6 +4,7 @@ import com.fairshare.controller.GroupController;
 import com.fairshare.model.Group;
 import com.fairshare.repository.ExpenseRepository;
 import com.fairshare.repository.GroupRepository;
+import com.fairshare.repository.UserRepository;
 import com.fairshare.service.GroupService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
@@ -20,6 +21,7 @@ import static org.mockito.Mockito.when;
 import static org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors.csrf;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.delete;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
@@ -31,12 +33,16 @@ public class GroupControllerTests {
 
     @MockitoBean
     private GroupService groupServiceMock;
+
     @MockitoBean
     private GroupRepository groupRepository;
+    @MockitoBean
+    private UserRepository userRepository;
     @MockitoBean
     private ExpenseRepository expenseRepository;
 
     private final ObjectMapper objectMapper = new ObjectMapper();
+
 
     @Test
     @WithMockUser
@@ -84,5 +90,53 @@ public class GroupControllerTests {
                 .andExpect(status().isCreated())
                 .andExpect(jsonPath("$.id").value(1L))
                 .andExpect(jsonPath("$.name").value("Gulzigen"));
+    }
+
+    @Test
+    @WithMockUser
+    public void addUserToGroup_returns_NoContent() throws Exception {
+        //? Arrange
+        Long userId = 3L;
+        Long groupId = 1L;
+
+        when(groupServiceMock.addUserToGroup(userId,groupId))
+                .thenReturn(true);
+
+        mockMvc.perform(post("/groups/"+groupId+"/users/" + userId)
+                        .with(csrf()))
+                .andExpect(status().isNoContent());
+
+    }
+
+    @Test
+    @WithMockUser
+    public void addUserToGroup_returns_BadRequest() throws Exception {
+        //? Arrange
+        Long userId = 3L;
+        Long groupId = 1L;
+
+        when(groupServiceMock.addUserToGroup(userId,groupId))
+                .thenReturn(false);
+
+        mockMvc.perform(post("/groups/"+groupId+"/users/" + userId)
+                        .with(csrf()))
+                .andExpect(status().isBadRequest());
+
+    }
+
+    @Test
+    @WithMockUser
+    public void removeUserFromGroup_returns_noContent() throws Exception {
+        //? Arrange
+        Long userId = 3L;
+        Long groupId = 1L;
+
+        when(groupServiceMock.removeUserFromGroup(userId,groupId))
+                .thenReturn(true);
+
+        mockMvc.perform(delete("/groups/"+groupId+"/users/" + userId)
+                        .with(csrf()))
+                .andExpect(status().isNoContent());
+
     }
 }
