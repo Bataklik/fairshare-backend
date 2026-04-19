@@ -36,18 +36,22 @@ public class UserController {
 
     @Operation(summary = "Get a user by id", description = "Return a user by id")
     @ApiResponses(value = {
-            @ApiResponse(responseCode = "200", description = "Successfully retrieved"),
+            @ApiResponse(responseCode = "200", description = "User found and returned"),
+            @ApiResponse(responseCode = "404", description = "User not found") // Belangrijke toevoeging!
     })
     @GetMapping("/{id}")
-    @ResponseStatus(HttpStatus.OK)
     public ResponseEntity<Optional<User>> getUser(@PathVariable Long id) throws Exception {
         var foundUser = userService.getUser(id);
         if (foundUser.isEmpty()) throw new Exception("User not found!");
         return ResponseEntity.ok(foundUser);
     }
 
+    @Operation(summary = "Create a user", description = "Return a user")
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "201", description = "User successfully created"), // 201 is de standaard voor 'Created'
+            @ApiResponse(responseCode = "400", description = "Invalid input data")
+    })
     @PostMapping
-    @ResponseStatus(HttpStatus.CREATED)
     public User createUser(@RequestBody User user) {
         return userService.createUser(user);
     }
