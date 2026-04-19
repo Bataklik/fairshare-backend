@@ -24,7 +24,7 @@ public class DataInitializer {
 
         User newUser = new User();
         newUser.setName("John Doe");
-        repository.save(newUser);
+        //repository.save(newUser);
 
         log.info("Aantal users: {}", repository.count());
     }
