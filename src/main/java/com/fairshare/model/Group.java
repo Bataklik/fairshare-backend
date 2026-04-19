@@ -1,6 +1,8 @@
 package com.fairshare.model;
 
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -18,17 +20,13 @@ public class Group {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String name;
-    @OneToMany
-    @JoinTable(name = "group_members",
-    joinColumns = @JoinColumn(name = "group_id"),
-    inverseJoinColumns = @JoinColumn(name = "user_id"))
-    private List<User> users;
 
-    public Group(Long id, String name) {
-        this.id = id;
-        this.name = name;
-    }
+    private String name;
+
+    @ManyToMany(mappedBy = "groups")
+    @JsonIgnoreProperties("groups")
+    private List<User> users = new java.util.ArrayList<>();
+
 
     public boolean addUser(User user) {
         if(user == null) return false;
