@@ -20,11 +20,25 @@ public class Group {
     private Long id;
     private String name;
     @OneToMany
-    @JoinColumn(name = "user_id")
+    @JoinTable(name = "group_members",
+    joinColumns = @JoinColumn(name = "group_id"),
+    inverseJoinColumns = @JoinColumn(name = "user_id"))
     private List<User> users;
 
     public Group(Long id, String name) {
         this.id = id;
         this.name = name;
+    }
+
+    public boolean addUser(User user) {
+        if(user == null) return false;
+        users.add(user);
+        return true;
+    }
+
+    public boolean removeUser(User user) {
+        if(user == null) return false;
+        users.remove(user);
+        return true;
     }
 }

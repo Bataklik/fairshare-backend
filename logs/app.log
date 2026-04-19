@@ -4626,3 +4626,1268 @@ Caused by: java.net.ConnectException: Connection refused
 2026-04-15 18:05:43,001 INFO c.f.C.GroupControllerTests [main] Starting GroupControllerTests using Java 25 with PID 44572 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
 2026-04-15 18:05:43,002 INFO c.f.C.GroupControllerTests [main] No active profile set, falling back to 1 default profile: "default"
 2026-04-15 18:05:43,716 INFO c.f.C.GroupControllerTests [main] Started GroupControllerTests in 0.805 seconds (process running for 1.392)
+2026-04-16 16:40:45,717 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-16 16:40:45,729 INFO c.f.C.GroupControllerTests [main] Starting GroupControllerTests using Java 25 with PID 76593 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-16 16:40:45,731 INFO c.f.C.GroupControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-16 16:40:46,501 INFO c.f.C.GroupControllerTests [main] Started GroupControllerTests in 0.871 seconds (process running for 1.712)
+2026-04-16 16:41:31,237 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-16 16:41:31,249 INFO c.f.C.GroupControllerTests [main] Starting GroupControllerTests using Java 25 with PID 76863 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-16 16:41:31,250 INFO c.f.C.GroupControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-16 16:41:31,978 INFO c.f.C.GroupControllerTests [main] Started GroupControllerTests in 0.827 seconds (process running for 1.53)
+2026-04-16 16:44:45,055 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-16 16:44:45,067 INFO c.f.C.GroupControllerTests [main] Starting GroupControllerTests using Java 25 with PID 77983 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-16 16:44:45,068 INFO c.f.C.GroupControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-16 16:44:45,811 INFO c.f.C.GroupControllerTests [main] Started GroupControllerTests in 0.842 seconds (process running for 1.486)
+2026-04-16 16:45:09,820 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-16 16:45:09,832 INFO c.f.C.GroupControllerTests [main] Starting GroupControllerTests using Java 25 with PID 78147 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-16 16:45:09,834 INFO c.f.C.GroupControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-16 16:45:10,581 INFO c.f.C.GroupControllerTests [main] Started GroupControllerTests in 0.846 seconds (process running for 1.537)
+2026-04-16 16:46:06,285 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-16 16:46:06,296 INFO c.f.C.GroupControllerTests [main] Starting GroupControllerTests using Java 25 with PID 78484 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-16 16:46:06,297 INFO c.f.C.GroupControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-16 16:46:07,027 INFO c.f.C.GroupControllerTests [main] Started GroupControllerTests in 0.824 seconds (process running for 1.464)
+2026-04-16 16:46:56,392 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-16 16:46:56,403 INFO c.f.C.GroupControllerTests [main] Starting GroupControllerTests using Java 25 with PID 78795 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-16 16:46:56,404 INFO c.f.C.GroupControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-16 16:46:57,124 INFO c.f.C.GroupControllerTests [main] Started GroupControllerTests in 0.817 seconds (process running for 1.447)
+2026-04-16 16:48:00,064 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-16 16:48:00,075 INFO c.f.C.GroupControllerTests [main] Starting GroupControllerTests using Java 25 with PID 79175 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-16 16:48:00,076 INFO c.f.C.GroupControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-16 16:48:00,797 INFO c.f.C.GroupControllerTests [main] Started GroupControllerTests in 0.82 seconds (process running for 1.445)
+2026-04-16 16:49:37,724 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-16 16:49:37,735 INFO c.f.C.GroupControllerTests [main] Starting GroupControllerTests using Java 25 with PID 79778 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-16 16:49:37,736 INFO c.f.C.GroupControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-16 16:49:38,475 INFO c.f.C.GroupControllerTests [main] Started GroupControllerTests in 0.832 seconds (process running for 1.456)
+2026-04-16 16:51:55,596 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-16 16:51:55,609 INFO c.f.C.GroupControllerTests [main] Starting GroupControllerTests using Java 25 with PID 80645 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-16 16:51:55,610 INFO c.f.C.GroupControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-16 16:51:56,415 INFO c.f.C.GroupControllerTests [main] Started GroupControllerTests in 0.903 seconds (process running for 1.642)
+2026-04-16 16:52:22,519 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-16 16:52:22,532 INFO c.f.C.GroupControllerTests [main] Starting GroupControllerTests using Java 25 with PID 80814 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-16 16:52:22,533 INFO c.f.C.GroupControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-16 16:52:23,270 INFO c.f.C.GroupControllerTests [main] Started GroupControllerTests in 0.843 seconds (process running for 1.497)
+2026-04-16 16:52:43,652 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-16 16:52:43,665 INFO c.f.C.GroupControllerTests [main] Starting GroupControllerTests using Java 25 with PID 80955 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-16 16:52:43,666 INFO c.f.C.GroupControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-16 16:52:44,440 INFO c.f.C.GroupControllerTests [main] Started GroupControllerTests in 0.878 seconds (process running for 1.541)
+2026-04-16 16:55:54,208 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-16 16:55:54,220 INFO c.f.C.GroupControllerTests [main] Starting GroupControllerTests using Java 25 with PID 82092 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-16 16:55:54,222 INFO c.f.C.GroupControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-16 16:55:54,982 INFO c.f.C.GroupControllerTests [main] Started GroupControllerTests in 0.861 seconds (process running for 1.503)
+2026-04-16 16:56:08,857 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-16 16:56:08,870 INFO c.f.C.GroupControllerTests [main] Starting GroupControllerTests using Java 25 with PID 82192 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-16 16:56:08,871 INFO c.f.C.GroupControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-16 16:56:09,624 INFO c.f.C.GroupControllerTests [main] Started GroupControllerTests in 0.85 seconds (process running for 1.486)
+2026-04-19 13:04:26,151 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-19 13:04:26,177 INFO c.f.FairshareBackendApplication [restartedMain] Starting FairshareBackendApplication using Java 25 with PID 6923 (/Users/buraq-mac/Documents/GitHub/fairshare-backend/target/classes started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-19 13:04:26,179 INFO c.f.FairshareBackendApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2026-04-19 13:04:27,023 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-19 13:04:27,024 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2026-04-19 13:04:27,024 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-19 13:04:27,140 INFO o.h.o.jpa [restartedMain] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-19 13:04:27,176 INFO o.h.o.core [restartedMain] HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-19 13:04:27,448 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2026-04-19 13:04:27,569 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@512731c3
+2026-04-19 13:04:27,570 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2026-04-19 13:04:27,628 INFO o.h.o.c.pooling [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/fairshare]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 15.17
+	Default catalog/schema: fairshare/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-19 13:04:28,228 INFO o.h.o.core [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-19 13:04:28,905 INFO o.a.c.h.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2026-04-19 13:04:28,921 INFO c.f.FairshareBackendApplication [restartedMain] Started FairshareBackendApplication in 2.912 seconds (process running for 3.798)
+2026-04-19 13:04:28,923 WARN o.s.c.e.SpringDocAppInitializer [restartedMain] SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-19 13:04:28,923 WARN o.s.c.e.SpringDocAppInitializer [restartedMain] SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-19 13:04:28,923 INFO c.f.c.DataInitializer [restartedMain] Systeem gestart, data inladen...
+2026-04-19 13:04:29,194 INFO c.f.c.DataInitializer [restartedMain] Aantal users: 1
+2026-04-19 13:05:05,889 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-19 13:05:06,361 INFO o.s.a.AbstractOpenApiResource [http-nio-8080-exec-3] Init duration for springdoc-openapi is: 163 ms
+2026-04-19 13:05:43,812 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [http-nio-8080-exec-5] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.orm.ObjectOptimisticLockingFailureException: Row was already updated or deleted by another transaction for entity [com.fairshare.model.User with id '0']] with root cause
+org.hibernate.StaleObjectStateException: Row was already updated or deleted by another transaction for entity [com.fairshare.model.User with id '0']
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:431)
+	at org.hibernate.event.internal.DefaultMergeEventListener.merge(DefaultMergeEventListener.java:192)
+	at org.hibernate.event.internal.DefaultMergeEventListener.doMerge(DefaultMergeEventListener.java:136)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:120)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:77)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138)
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:800)
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:785)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:362)
+	at jdk.proxy4/jdk.proxy4.$Proxy149.merge(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityHandlerInvocationHandler.invokeMethod(SharedEntityManagerCreator.java:240)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:386)
+	at jdk.proxy4/jdk.proxy4.$Proxy149.merge(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:667)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:278)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:169)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:545)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:290)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:690)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:171)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:146)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:133)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:371)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:130)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:135)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:166)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:222)
+	at jdk.proxy4/jdk.proxy4.$Proxy153.save(Unknown Source)
+	at com.fairshare.service.UserService.createUser(UserService.java:24)
+	at com.fairshare.controller.UserController.createUser(UserController.java:39)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:235)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:181)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:110)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:96)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:237)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:195)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:317)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:355)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:272)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1779)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-04-19 13:08:19,351 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2026-04-19 13:08:19,354 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2026-04-19 13:08:23,357 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-19 13:08:23,377 INFO c.f.FairshareBackendApplication [restartedMain] Starting FairshareBackendApplication using Java 25 with PID 8117 (/Users/buraq-mac/Documents/GitHub/fairshare-backend/target/classes started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-19 13:08:23,379 INFO c.f.FairshareBackendApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2026-04-19 13:08:24,151 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-19 13:08:24,152 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2026-04-19 13:08:24,152 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-19 13:08:24,269 INFO o.h.o.jpa [restartedMain] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-19 13:08:24,296 INFO o.h.o.core [restartedMain] HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-19 13:08:24,556 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2026-04-19 13:08:24,653 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@12927c3c
+2026-04-19 13:08:24,654 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2026-04-19 13:08:24,698 INFO o.h.o.c.pooling [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/fairshare]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 15.17
+	Default catalog/schema: fairshare/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-19 13:08:25,276 INFO o.h.o.core [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-19 13:08:25,892 INFO o.a.c.h.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2026-04-19 13:08:25,908 INFO c.f.FairshareBackendApplication [restartedMain] Started FairshareBackendApplication in 2.697 seconds (process running for 3.258)
+2026-04-19 13:08:25,909 WARN o.s.c.e.SpringDocAppInitializer [restartedMain] SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-19 13:08:25,909 WARN o.s.c.e.SpringDocAppInitializer [restartedMain] SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-19 13:08:25,910 INFO c.f.c.DataInitializer [restartedMain] Systeem gestart, data inladen...
+2026-04-19 13:08:25,960 WARN o.h.o.j.error [restartedMain] HHH000247: ErrorCode: 0, SQLState: 23503
+2026-04-19 13:08:25,961 WARN o.h.o.j.error [restartedMain] ERROR: insert or update on table "users" violates foreign key constraint "fkmga6wxrnt6vngdc9s0q6mplw3"
+  Detail: Key (id)=(1) is not present in table "groups".
+2026-04-19 13:08:25,980 INFO o.a.c.h.Http11NioProtocol [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
+2026-04-19 13:08:25,984 INFO o.a.c.h.Http11NioProtocol [restartedMain] Stopping ProtocolHandler ["http-nio-8080"]
+2026-04-19 13:08:25,991 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Shutdown initiated...
+2026-04-19 13:08:25,992 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Shutdown completed.
+2026-04-19 13:08:51,959 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-19 13:08:51,980 INFO c.f.FairshareBackendApplication [restartedMain] Starting FairshareBackendApplication using Java 25 with PID 8261 (/Users/buraq-mac/Documents/GitHub/fairshare-backend/target/classes started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-19 13:08:51,982 INFO c.f.FairshareBackendApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2026-04-19 13:08:52,777 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-19 13:08:52,778 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2026-04-19 13:08:52,778 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-19 13:08:52,895 INFO o.h.o.jpa [restartedMain] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-19 13:08:52,933 INFO o.h.o.core [restartedMain] HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-19 13:08:53,205 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2026-04-19 13:08:53,305 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4dce12db
+2026-04-19 13:08:53,305 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2026-04-19 13:08:53,351 INFO o.h.o.c.pooling [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/fairshare]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 15.17
+	Default catalog/schema: fairshare/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-19 13:08:53,947 INFO o.h.o.core [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-19 13:08:54,571 INFO o.a.c.h.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2026-04-19 13:08:54,588 INFO c.f.FairshareBackendApplication [restartedMain] Started FairshareBackendApplication in 2.761 seconds (process running for 3.365)
+2026-04-19 13:08:54,590 WARN o.s.c.e.SpringDocAppInitializer [restartedMain] SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-19 13:08:54,590 WARN o.s.c.e.SpringDocAppInitializer [restartedMain] SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-19 13:08:54,590 INFO c.f.c.DataInitializer [restartedMain] Systeem gestart, data inladen...
+2026-04-19 13:08:54,641 WARN o.h.o.j.error [restartedMain] HHH000247: ErrorCode: 0, SQLState: 23503
+2026-04-19 13:08:54,642 WARN o.h.o.j.error [restartedMain] ERROR: insert or update on table "users" violates foreign key constraint "fkmga6wxrnt6vngdc9s0q6mplw3"
+  Detail: Key (id)=(1) is not present in table "groups".
+2026-04-19 13:08:54,662 INFO o.a.c.h.Http11NioProtocol [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
+2026-04-19 13:08:54,673 INFO o.a.c.h.Http11NioProtocol [restartedMain] Stopping ProtocolHandler ["http-nio-8080"]
+2026-04-19 13:08:54,683 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Shutdown initiated...
+2026-04-19 13:08:54,692 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Shutdown completed.
+2026-04-19 13:10:14,218 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-19 13:10:14,241 INFO c.f.FairshareBackendApplication [restartedMain] Starting FairshareBackendApplication using Java 25 with PID 8645 (/Users/buraq-mac/Documents/GitHub/fairshare-backend/target/classes started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-19 13:10:14,242 INFO c.f.FairshareBackendApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2026-04-19 13:10:15,046 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-19 13:10:15,047 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2026-04-19 13:10:15,047 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-19 13:10:15,166 INFO o.h.o.jpa [restartedMain] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-19 13:10:15,202 INFO o.h.o.core [restartedMain] HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-19 13:10:15,471 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2026-04-19 13:10:15,571 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5ad7d202
+2026-04-19 13:10:15,572 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2026-04-19 13:10:15,618 INFO o.h.o.c.pooling [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/fairshare]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 15.17
+	Default catalog/schema: fairshare/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-19 13:10:16,203 INFO o.h.o.core [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-19 13:10:16,820 INFO o.a.c.h.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2026-04-19 13:10:16,837 INFO c.f.FairshareBackendApplication [restartedMain] Started FairshareBackendApplication in 2.754 seconds (process running for 3.449)
+2026-04-19 13:10:16,838 WARN o.s.c.e.SpringDocAppInitializer [restartedMain] SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-19 13:10:16,838 WARN o.s.c.e.SpringDocAppInitializer [restartedMain] SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-19 13:10:16,838 INFO c.f.c.DataInitializer [restartedMain] Systeem gestart, data inladen...
+2026-04-19 13:10:16,889 WARN o.h.o.j.error [restartedMain] HHH000247: ErrorCode: 0, SQLState: 23503
+2026-04-19 13:10:16,889 WARN o.h.o.j.error [restartedMain] ERROR: insert or update on table "users" violates foreign key constraint "fkmga6wxrnt6vngdc9s0q6mplw3"
+  Detail: Key (id)=(1) is not present in table "groups".
+2026-04-19 13:10:16,906 INFO o.a.c.h.Http11NioProtocol [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
+2026-04-19 13:10:16,911 INFO o.a.c.h.Http11NioProtocol [restartedMain] Stopping ProtocolHandler ["http-nio-8080"]
+2026-04-19 13:10:16,918 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Shutdown initiated...
+2026-04-19 13:10:16,925 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Shutdown completed.
+2026-04-19 13:10:59,863 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-19 13:10:59,885 INFO c.f.FairshareBackendApplication [restartedMain] Starting FairshareBackendApplication using Java 25 with PID 8840 (/Users/buraq-mac/Documents/GitHub/fairshare-backend/target/classes started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-19 13:10:59,886 INFO c.f.FairshareBackendApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2026-04-19 13:11:00,928 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-19 13:11:00,930 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2026-04-19 13:11:00,930 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-19 13:11:01,043 INFO o.h.o.jpa [restartedMain] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-19 13:11:01,079 INFO o.h.o.core [restartedMain] HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-19 13:11:01,346 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2026-04-19 13:11:01,443 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@d9ae371
+2026-04-19 13:11:01,443 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2026-04-19 13:11:01,490 INFO o.h.o.c.pooling [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/fairshare]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 15.17
+	Default catalog/schema: fairshare/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-19 13:11:02,081 INFO o.h.o.core [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-19 13:11:02,692 INFO o.a.c.h.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2026-04-19 13:11:02,708 INFO c.f.FairshareBackendApplication [restartedMain] Started FairshareBackendApplication in 2.985 seconds (process running for 3.661)
+2026-04-19 13:11:02,710 WARN o.s.c.e.SpringDocAppInitializer [restartedMain] SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-19 13:11:02,710 WARN o.s.c.e.SpringDocAppInitializer [restartedMain] SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-19 13:11:02,710 INFO c.f.c.DataInitializer [restartedMain] Systeem gestart, data inladen...
+2026-04-19 13:11:02,761 WARN o.h.o.j.error [restartedMain] HHH000247: ErrorCode: 0, SQLState: 23503
+2026-04-19 13:11:02,761 WARN o.h.o.j.error [restartedMain] ERROR: insert or update on table "users" violates foreign key constraint "fkmga6wxrnt6vngdc9s0q6mplw3"
+  Detail: Key (id)=(1) is not present in table "groups".
+2026-04-19 13:11:02,779 INFO o.a.c.h.Http11NioProtocol [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
+2026-04-19 13:11:02,784 INFO o.a.c.h.Http11NioProtocol [restartedMain] Stopping ProtocolHandler ["http-nio-8080"]
+2026-04-19 13:11:02,791 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Shutdown initiated...
+2026-04-19 13:11:02,792 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Shutdown completed.
+2026-04-19 13:11:45,432 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-19 13:11:45,454 INFO c.f.FairshareBackendApplication [restartedMain] Starting FairshareBackendApplication using Java 25 with PID 9078 (/Users/buraq-mac/Documents/GitHub/fairshare-backend/target/classes started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-19 13:11:45,455 INFO c.f.FairshareBackendApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2026-04-19 13:11:46,253 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-19 13:11:46,254 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2026-04-19 13:11:46,254 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-19 13:11:46,370 INFO o.h.o.jpa [restartedMain] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-19 13:11:46,403 INFO o.h.o.core [restartedMain] HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-19 13:11:46,676 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2026-04-19 13:11:46,779 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5e66d649
+2026-04-19 13:11:46,780 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2026-04-19 13:11:46,825 INFO o.h.o.c.pooling [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/fairshare]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 15.17
+	Default catalog/schema: fairshare/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-19 13:11:47,408 INFO o.h.o.core [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-19 13:11:48,038 INFO o.a.c.h.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2026-04-19 13:11:48,060 INFO c.f.FairshareBackendApplication [restartedMain] Started FairshareBackendApplication in 2.792 seconds (process running for 3.594)
+2026-04-19 13:11:48,061 WARN o.s.c.e.SpringDocAppInitializer [restartedMain] SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-19 13:11:48,062 WARN o.s.c.e.SpringDocAppInitializer [restartedMain] SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-19 13:11:48,062 INFO c.f.c.DataInitializer [restartedMain] Systeem gestart, data inladen...
+2026-04-19 13:11:48,116 WARN o.h.o.j.error [restartedMain] HHH000247: ErrorCode: 0, SQLState: 23503
+2026-04-19 13:11:48,116 WARN o.h.o.j.error [restartedMain] ERROR: insert or update on table "users" violates foreign key constraint "fkmga6wxrnt6vngdc9s0q6mplw3"
+  Detail: Key (id)=(1) is not present in table "groups".
+2026-04-19 13:11:48,148 INFO o.a.c.h.Http11NioProtocol [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
+2026-04-19 13:11:48,154 INFO o.a.c.h.Http11NioProtocol [restartedMain] Stopping ProtocolHandler ["http-nio-8080"]
+2026-04-19 13:11:48,161 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Shutdown initiated...
+2026-04-19 13:11:48,163 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Shutdown completed.
+2026-04-19 13:13:22,866 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-19 13:13:22,887 INFO c.f.FairshareBackendApplication [restartedMain] Starting FairshareBackendApplication using Java 25 with PID 9580 (/Users/buraq-mac/Documents/GitHub/fairshare-backend/target/classes started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-19 13:13:22,889 INFO c.f.FairshareBackendApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2026-04-19 13:13:23,682 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-19 13:13:23,683 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2026-04-19 13:13:23,683 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-19 13:13:23,799 INFO o.h.o.jpa [restartedMain] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-19 13:13:23,837 INFO o.h.o.core [restartedMain] HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-19 13:13:24,112 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2026-04-19 13:13:24,226 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3c7e5593
+2026-04-19 13:13:24,227 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2026-04-19 13:13:24,275 INFO o.h.o.c.pooling [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/fairshare]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 15.17
+	Default catalog/schema: fairshare/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-19 13:13:24,863 INFO o.h.o.core [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-19 13:13:25,482 INFO o.a.c.h.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2026-04-19 13:13:25,498 INFO c.f.FairshareBackendApplication [restartedMain] Started FairshareBackendApplication in 2.768 seconds (process running for 3.337)
+2026-04-19 13:13:25,500 WARN o.s.c.e.SpringDocAppInitializer [restartedMain] SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-19 13:13:25,500 WARN o.s.c.e.SpringDocAppInitializer [restartedMain] SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-19 13:13:25,500 INFO c.f.c.DataInitializer [restartedMain] Systeem gestart, data inladen...
+2026-04-19 13:13:25,764 INFO c.f.c.DataInitializer [restartedMain] Aantal users: 1
+2026-04-19 13:15:13,884 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2026-04-19 13:15:13,888 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2026-04-19 13:15:17,233 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-19 13:15:17,254 INFO c.f.FairshareBackendApplication [restartedMain] Starting FairshareBackendApplication using Java 25 with PID 10121 (/Users/buraq-mac/Documents/GitHub/fairshare-backend/target/classes started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-19 13:15:17,255 INFO c.f.FairshareBackendApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2026-04-19 13:15:18,029 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-19 13:15:18,030 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2026-04-19 13:15:18,031 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-19 13:15:18,145 INFO o.h.o.jpa [restartedMain] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-19 13:15:18,176 INFO o.h.o.core [restartedMain] HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-19 13:15:18,433 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2026-04-19 13:15:18,534 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6b018ee0
+2026-04-19 13:15:18,535 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2026-04-19 13:15:18,579 INFO o.h.o.c.pooling [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/fairshare]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 15.17
+	Default catalog/schema: fairshare/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-19 13:15:19,146 INFO o.h.o.core [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-19 13:15:19,748 INFO o.a.c.h.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2026-04-19 13:15:19,764 INFO c.f.FairshareBackendApplication [restartedMain] Started FairshareBackendApplication in 2.687 seconds (process running for 3.298)
+2026-04-19 13:15:19,766 WARN o.s.c.e.SpringDocAppInitializer [restartedMain] SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-19 13:15:19,766 WARN o.s.c.e.SpringDocAppInitializer [restartedMain] SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-19 13:15:19,766 INFO c.f.c.DataInitializer [restartedMain] Systeem gestart, data inladen...
+2026-04-19 13:15:20,023 INFO c.f.c.DataInitializer [restartedMain] Aantal users: 1
+2026-04-19 13:16:13,648 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2026-04-19 13:16:13,652 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2026-04-19 13:16:16,242 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-19 13:16:16,261 INFO c.f.FairshareBackendApplication [restartedMain] Starting FairshareBackendApplication using Java 25 with PID 10426 (/Users/buraq-mac/Documents/GitHub/fairshare-backend/target/classes started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-19 13:16:16,263 INFO c.f.FairshareBackendApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2026-04-19 13:16:17,036 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-19 13:16:17,037 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2026-04-19 13:16:17,037 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-19 13:16:17,152 INFO o.h.o.jpa [restartedMain] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-19 13:16:17,179 INFO o.h.o.core [restartedMain] HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-19 13:16:17,444 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2026-04-19 13:16:17,553 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4d485a86
+2026-04-19 13:16:17,554 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2026-04-19 13:16:17,600 INFO o.h.o.c.pooling [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/fairshare]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 15.17
+	Default catalog/schema: fairshare/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-19 13:16:18,176 INFO o.h.o.core [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-19 13:16:18,228 WARN o.h.t.s.i.ExceptionHandlerLoggedImpl [restartedMain] GenerationTarget encountered exception accepting command : Error executing DDL "create table users (group bigint, id bigint generated by default as identity, name varchar(255), primary key (id))" via JDBC [ERROR: syntax error at or near "group"
+  Position: 21]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table users (group bigint, id bigint generated by default as identity, name varchar(255), primary key (id))" via JDBC [ERROR: syntax error at or near "group"
+  Position: 21]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:81)
+	at org.hibernate.tool.schema.internal.Helper.applySqlString(Helper.java:218)
+	at org.hibernate.tool.schema.internal.Helper.applySqlStrings(Helper.java:204)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createTables(SchemaCreatorImpl.java:404)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createSequencesTablesConstraints(SchemaCreatorImpl.java:320)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createFromMetadata(SchemaCreatorImpl.java:215)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:151)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:121)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:97)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:239)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$1(SchemaManagementToolCoordinator.java:101)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1430)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:100)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:35)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:33)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:323)
+	at org.hibernate.internal.SessionFactoryRegistry.instantiateSessionFactory(SessionFactoryRegistry.java:64)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:437)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1456)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:93)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:443)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:436)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:411)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:419)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1864)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1813)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:977)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at com.fairshare.FairshareBackendApplication.main(FairshareBackendApplication.java:14)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52)
+Caused by: org.postgresql.util.PSQLException: ERROR: syntax error at or near "group"
+  Position: 21
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2875)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2560)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:429)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:526)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:436)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:358)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:343)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:319)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:314)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:76)
+	... 43 more
+2026-04-19 13:16:18,232 WARN o.h.t.s.i.ExceptionHandlerLoggedImpl [restartedMain] GenerationTarget encountered exception accepting command : Error executing DDL "alter table if exists expense_split add constraint FKl1gujhxin9bs0sluiqggjsu70 foreign key (user_id) references users" via JDBC [ERROR: relation "users" does not exist]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table if exists expense_split add constraint FKl1gujhxin9bs0sluiqggjsu70 foreign key (user_id) references users" via JDBC [ERROR: relation "users" does not exist]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:81)
+	at org.hibernate.tool.schema.internal.Helper.applySqlString(Helper.java:218)
+	at org.hibernate.tool.schema.internal.Helper.applySqlStrings(Helper.java:204)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createForeignKeys(SchemaCreatorImpl.java:281)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createFromMetadata(SchemaCreatorImpl.java:227)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:151)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:121)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:97)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:239)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$1(SchemaManagementToolCoordinator.java:101)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1430)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:100)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:35)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:33)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:323)
+	at org.hibernate.internal.SessionFactoryRegistry.instantiateSessionFactory(SessionFactoryRegistry.java:64)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:437)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1456)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:93)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:443)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:436)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:411)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:419)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1864)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1813)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:977)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at com.fairshare.FairshareBackendApplication.main(FairshareBackendApplication.java:14)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52)
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "users" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2875)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2560)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:429)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:526)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:436)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:358)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:343)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:319)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:314)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:76)
+	... 42 more
+2026-04-19 13:16:18,234 WARN o.h.t.s.i.ExceptionHandlerLoggedImpl [restartedMain] GenerationTarget encountered exception accepting command : Error executing DDL "alter table if exists expenses add constraint FKhhvju90gqt8r2pc6mkb8ute7y foreign key (paid_by_id) references users" via JDBC [ERROR: relation "users" does not exist]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table if exists expenses add constraint FKhhvju90gqt8r2pc6mkb8ute7y foreign key (paid_by_id) references users" via JDBC [ERROR: relation "users" does not exist]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:81)
+	at org.hibernate.tool.schema.internal.Helper.applySqlString(Helper.java:218)
+	at org.hibernate.tool.schema.internal.Helper.applySqlStrings(Helper.java:204)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createForeignKeys(SchemaCreatorImpl.java:281)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createFromMetadata(SchemaCreatorImpl.java:227)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:151)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:121)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:97)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:239)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$1(SchemaManagementToolCoordinator.java:101)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1430)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:100)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:35)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:33)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:323)
+	at org.hibernate.internal.SessionFactoryRegistry.instantiateSessionFactory(SessionFactoryRegistry.java:64)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:437)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1456)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:93)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:443)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:436)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:411)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:419)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1864)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1813)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:977)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at com.fairshare.FairshareBackendApplication.main(FairshareBackendApplication.java:14)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52)
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "users" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2875)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2560)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:429)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:526)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:436)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:358)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:343)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:319)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:314)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:76)
+	... 42 more
+2026-04-19 13:16:18,235 WARN o.h.t.s.i.ExceptionHandlerLoggedImpl [restartedMain] GenerationTarget encountered exception accepting command : Error executing DDL "alter table if exists users add constraint FK3mxjahkxo073nr0yf9ko4vjwq foreign key (group) references groups" via JDBC [ERROR: syntax error at or near "group"
+  Position: 85]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table if exists users add constraint FK3mxjahkxo073nr0yf9ko4vjwq foreign key (group) references groups" via JDBC [ERROR: syntax error at or near "group"
+  Position: 85]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:81)
+	at org.hibernate.tool.schema.internal.Helper.applySqlString(Helper.java:218)
+	at org.hibernate.tool.schema.internal.Helper.applySqlStrings(Helper.java:204)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createForeignKeys(SchemaCreatorImpl.java:281)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createFromMetadata(SchemaCreatorImpl.java:227)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:151)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:121)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:97)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:239)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$1(SchemaManagementToolCoordinator.java:101)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1430)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:100)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:35)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:33)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:323)
+	at org.hibernate.internal.SessionFactoryRegistry.instantiateSessionFactory(SessionFactoryRegistry.java:64)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:437)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1456)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:93)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:443)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:436)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:411)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:419)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1864)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1813)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:977)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at com.fairshare.FairshareBackendApplication.main(FairshareBackendApplication.java:14)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52)
+Caused by: org.postgresql.util.PSQLException: ERROR: syntax error at or near "group"
+  Position: 85
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2875)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2560)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:429)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:526)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:436)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:358)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:343)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:319)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:314)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:76)
+	... 42 more
+2026-04-19 13:16:18,816 INFO o.a.c.h.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2026-04-19 13:16:18,832 INFO c.f.FairshareBackendApplication [restartedMain] Started FairshareBackendApplication in 2.731 seconds (process running for 3.378)
+2026-04-19 13:16:18,834 WARN o.s.c.e.SpringDocAppInitializer [restartedMain] SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-19 13:16:18,834 WARN o.s.c.e.SpringDocAppInitializer [restartedMain] SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-19 13:16:18,834 INFO c.f.c.DataInitializer [restartedMain] Systeem gestart, data inladen...
+2026-04-19 13:16:18,879 WARN o.h.o.j.error [restartedMain] HHH000247: ErrorCode: 0, SQLState: 42P01
+2026-04-19 13:16:18,879 WARN o.h.o.j.error [restartedMain] ERROR: relation "users" does not exist
+  Position: 13
+2026-04-19 13:16:18,903 INFO o.a.c.h.Http11NioProtocol [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
+2026-04-19 13:16:18,908 INFO o.a.c.h.Http11NioProtocol [restartedMain] Stopping ProtocolHandler ["http-nio-8080"]
+2026-04-19 13:16:18,917 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Shutdown initiated...
+2026-04-19 13:16:18,918 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Shutdown completed.
+2026-04-19 13:19:50,321 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-19 13:19:50,343 INFO c.f.FairshareBackendApplication [restartedMain] Starting FairshareBackendApplication using Java 25 with PID 11492 (/Users/buraq-mac/Documents/GitHub/fairshare-backend/target/classes started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-19 13:19:50,345 INFO c.f.FairshareBackendApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2026-04-19 13:19:51,477 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-19 13:19:51,478 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2026-04-19 13:19:51,479 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-19 13:19:51,599 INFO o.h.o.jpa [restartedMain] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-19 13:19:51,638 INFO o.h.o.core [restartedMain] HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-19 13:19:51,905 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2026-04-19 13:19:52,003 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@55522ee6
+2026-04-19 13:19:52,004 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2026-04-19 13:19:52,051 INFO o.h.o.c.pooling [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/fairshare]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 15.17
+	Default catalog/schema: fairshare/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-19 13:19:52,641 INFO o.h.o.core [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-19 13:19:53,249 INFO o.a.c.h.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2026-04-19 13:19:53,265 INFO c.f.FairshareBackendApplication [restartedMain] Started FairshareBackendApplication in 3.1 seconds (process running for 3.807)
+2026-04-19 13:19:53,267 WARN o.s.c.e.SpringDocAppInitializer [restartedMain] SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-19 13:19:53,267 WARN o.s.c.e.SpringDocAppInitializer [restartedMain] SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-19 13:19:53,267 INFO c.f.c.DataInitializer [restartedMain] Systeem gestart, data inladen...
+2026-04-19 13:19:53,532 INFO c.f.c.DataInitializer [restartedMain] Aantal users: 1
+2026-04-19 13:20:26,093 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2026-04-19 13:20:26,097 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2026-04-19 13:21:27,823 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-19 13:21:27,843 INFO c.f.C.UserControllerTests [main] Starting UserControllerTests using Java 25 with PID 12018 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-19 13:21:27,845 INFO c.f.C.UserControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-19 13:21:29,097 INFO c.f.C.UserControllerTests [main] Started UserControllerTests in 1.418 seconds (process running for 2.867)
+2026-04-19 13:22:10,141 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-19 13:22:10,162 INFO c.f.FairshareBackendApplication [restartedMain] Starting FairshareBackendApplication using Java 25 with PID 12236 (/Users/buraq-mac/Documents/GitHub/fairshare-backend/target/classes started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-19 13:22:10,164 INFO c.f.FairshareBackendApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2026-04-19 13:22:11,281 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-19 13:22:11,283 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2026-04-19 13:22:11,283 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-19 13:22:11,409 INFO o.h.o.jpa [restartedMain] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-19 13:22:11,440 INFO o.h.o.core [restartedMain] HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-19 13:22:11,698 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2026-04-19 13:22:11,798 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5d166a86
+2026-04-19 13:22:11,799 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2026-04-19 13:22:11,847 INFO o.h.o.c.pooling [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/fairshare]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 15.17
+	Default catalog/schema: fairshare/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-19 13:22:12,437 INFO o.h.o.core [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-19 13:22:13,075 INFO o.a.c.h.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2026-04-19 13:22:13,092 INFO c.f.FairshareBackendApplication [restartedMain] Started FairshareBackendApplication in 3.095 seconds (process running for 3.853)
+2026-04-19 13:22:13,093 WARN o.s.c.e.SpringDocAppInitializer [restartedMain] SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-19 13:22:13,093 WARN o.s.c.e.SpringDocAppInitializer [restartedMain] SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-19 13:22:13,094 INFO c.f.c.DataInitializer [restartedMain] Systeem gestart, data inladen...
+2026-04-19 13:22:13,363 INFO c.f.c.DataInitializer [restartedMain] Aantal users: 1
+2026-04-19 13:22:16,381 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-19 13:22:17,064 INFO o.s.a.AbstractOpenApiResource [http-nio-8080-exec-10] Init duration for springdoc-openapi is: 268 ms
+2026-04-19 13:23:12,238 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-19 13:23:12,258 INFO c.f.C.UserControllerTests [main] Starting UserControllerTests using Java 25 with PID 12541 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-19 13:23:12,260 INFO c.f.C.UserControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-19 13:23:13,536 INFO c.f.C.UserControllerTests [main] Started UserControllerTests in 1.441 seconds (process running for 2.993)
+2026-04-19 13:23:52,208 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-19 13:23:52,228 INFO c.f.C.UserControllerTests [main] Starting UserControllerTests using Java 25 with PID 12761 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-19 13:23:52,230 INFO c.f.C.UserControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-19 13:23:53,495 INFO c.f.C.UserControllerTests [main] Started UserControllerTests in 1.426 seconds (process running for 3.087)
+2026-04-19 13:24:23,633 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-19 13:24:23,652 INFO c.f.C.UserControllerTests [main] Starting UserControllerTests using Java 25 with PID 12960 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-19 13:24:23,654 INFO c.f.C.UserControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-19 13:24:25,091 INFO c.f.C.UserControllerTests [main] Started UserControllerTests in 1.597 seconds (process running for 2.6)
+2026-04-19 13:24:32,667 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-19 13:24:32,687 INFO c.f.C.GroupControllerTests [main] Starting GroupControllerTests using Java 25 with PID 13022 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-19 13:24:32,689 INFO c.f.C.GroupControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-19 13:24:34,125 INFO c.f.C.GroupControllerTests [main] Started GroupControllerTests in 1.622 seconds (process running for 2.912)
+2026-04-19 14:10:26,749 INFO o.a.c.h.Http11NioProtocol [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
+2026-04-19 14:10:26,758 INFO o.a.c.h.Http11NioProtocol [Thread-1] Stopping ProtocolHandler ["http-nio-8080"]
+2026-04-19 14:10:26,767 INFO c.z.h.HikariDataSource [Thread-1] HikariPool-1 - Shutdown initiated...
+2026-04-19 14:10:26,769 INFO c.z.h.HikariDataSource [Thread-1] HikariPool-1 - Shutdown completed.
+2026-04-19 14:10:26,836 INFO c.f.FairshareBackendApplication [restartedMain] Starting FairshareBackendApplication using Java 25 with PID 12236 (/Users/buraq-mac/Documents/GitHub/fairshare-backend/target/classes started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-19 14:10:26,837 INFO c.f.FairshareBackendApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2026-04-19 14:10:26,968 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-19 14:10:26,968 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2026-04-19 14:10:26,968 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-19 14:10:26,988 INFO o.h.o.jpa [restartedMain] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-19 14:10:26,997 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2026-04-19 14:10:27,017 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@7b1a70bf
+2026-04-19 14:10:27,018 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2026-04-19 14:10:27,027 INFO o.h.o.c.pooling [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/fairshare]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 15.17
+	Default catalog/schema: fairshare/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-19 14:10:27,057 INFO o.h.o.core [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-19 14:10:27,200 INFO o.a.c.h.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2026-04-19 14:10:27,202 INFO c.f.FairshareBackendApplication [restartedMain] Started FairshareBackendApplication in 0.384 seconds (process running for 2897.966)
+2026-04-19 14:10:27,202 WARN o.s.c.e.SpringDocAppInitializer [restartedMain] SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-19 14:10:27,202 WARN o.s.c.e.SpringDocAppInitializer [restartedMain] SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-19 14:10:27,203 INFO c.f.c.DataInitializer [restartedMain] Systeem gestart, data inladen...
+2026-04-19 14:10:27,211 INFO c.f.c.DataInitializer [restartedMain] Aantal users: 1
+2026-04-19 14:11:45,510 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-19 14:11:45,523 INFO c.f.C.GroupControllerTests [main] Starting GroupControllerTests using Java 25 with PID 27033 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-19 14:11:45,524 INFO c.f.C.GroupControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-19 14:11:46,272 INFO c.f.C.GroupControllerTests [main] Started GroupControllerTests in 0.847 seconds (process running for 1.551)
+2026-04-19 14:12:45,185 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-19 14:12:45,198 INFO c.f.C.GroupControllerTests [main] Starting GroupControllerTests using Java 25 with PID 27333 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-19 14:12:45,199 INFO c.f.C.GroupControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-19 14:12:45,243 INFO o.a.c.h.Http11NioProtocol [tomcat-shutdown] Pausing ProtocolHandler ["http-nio-8080"]
+2026-04-19 14:12:45,247 INFO o.a.c.h.Http11NioProtocol [Thread-5] Stopping ProtocolHandler ["http-nio-8080"]
+2026-04-19 14:12:45,251 INFO c.z.h.HikariDataSource [Thread-5] HikariPool-2 - Shutdown initiated...
+2026-04-19 14:12:45,253 INFO c.z.h.HikariDataSource [Thread-5] HikariPool-2 - Shutdown completed.
+2026-04-19 14:12:45,317 INFO c.f.FairshareBackendApplication [restartedMain] Starting FairshareBackendApplication using Java 25 with PID 12236 (/Users/buraq-mac/Documents/GitHub/fairshare-backend/target/classes started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-19 14:12:45,318 INFO c.f.FairshareBackendApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2026-04-19 14:12:45,430 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-19 14:12:45,431 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2026-04-19 14:12:45,431 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-19 14:12:45,452 INFO o.h.o.jpa [restartedMain] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-19 14:12:45,459 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2026-04-19 14:12:45,472 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@3aea3a56
+2026-04-19 14:12:45,472 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2026-04-19 14:12:45,478 INFO o.h.o.c.pooling [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/fairshare]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 15.17
+	Default catalog/schema: fairshare/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-19 14:12:45,508 INFO o.h.o.core [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-19 14:12:45,642 INFO o.a.c.h.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2026-04-19 14:12:45,644 INFO c.f.FairshareBackendApplication [restartedMain] Started FairshareBackendApplication in 0.342 seconds (process running for 3036.408)
+2026-04-19 14:12:45,644 WARN o.s.c.e.SpringDocAppInitializer [restartedMain] SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-19 14:12:45,644 WARN o.s.c.e.SpringDocAppInitializer [restartedMain] SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-19 14:12:45,645 INFO c.f.c.DataInitializer [restartedMain] Systeem gestart, data inladen...
+2026-04-19 14:12:45,649 INFO c.f.c.DataInitializer [restartedMain] Aantal users: 1
+2026-04-19 14:12:46,030 INFO c.f.C.GroupControllerTests [main] Started GroupControllerTests in 0.926 seconds (process running for 1.555)
+2026-04-19 14:13:24,587 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-3 - Shutdown initiated...
+2026-04-19 14:13:24,588 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-3 - Shutdown completed.
+2026-04-19 14:13:25,669 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-19 14:13:25,682 INFO c.f.FairshareBackendApplication [restartedMain] Starting FairshareBackendApplication using Java 25 with PID 27538 (/Users/buraq-mac/Documents/GitHub/fairshare-backend/target/classes started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-19 14:13:25,683 INFO c.f.FairshareBackendApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2026-04-19 14:13:26,132 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-19 14:13:26,133 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2026-04-19 14:13:26,133 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-19 14:13:26,196 INFO o.h.o.jpa [restartedMain] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-19 14:13:26,251 INFO o.h.o.core [restartedMain] HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-19 14:13:26,527 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2026-04-19 14:13:26,594 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7e5e7825
+2026-04-19 14:13:26,594 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2026-04-19 14:13:26,623 INFO o.h.o.c.pooling [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/fairshare]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 15.17
+	Default catalog/schema: fairshare/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-19 14:13:26,977 INFO o.h.o.core [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-19 14:13:27,316 INFO o.a.c.h.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2026-04-19 14:13:27,325 INFO c.f.FairshareBackendApplication [restartedMain] Started FairshareBackendApplication in 1.771 seconds (process running for 2.224)
+2026-04-19 14:13:27,326 WARN o.s.c.e.SpringDocAppInitializer [restartedMain] SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-19 14:13:27,326 WARN o.s.c.e.SpringDocAppInitializer [restartedMain] SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-19 14:13:27,326 INFO c.f.c.DataInitializer [restartedMain] Systeem gestart, data inladen...
+2026-04-19 14:13:27,460 INFO c.f.c.DataInitializer [restartedMain] Aantal users: 1
+2026-04-19 14:13:28,921 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-19 14:13:29,269 INFO o.s.a.AbstractOpenApiResource [http-nio-8080-exec-3] Init duration for springdoc-openapi is: 113 ms
+2026-04-19 14:14:26,527 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2026-04-19 14:14:26,530 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2026-04-19 14:14:27,557 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-19 14:14:27,567 INFO c.f.FairshareBackendApplication [restartedMain] Starting FairshareBackendApplication using Java 25 with PID 27846 (/Users/buraq-mac/Documents/GitHub/fairshare-backend/target/classes started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-19 14:14:27,568 INFO c.f.FairshareBackendApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2026-04-19 14:14:28,005 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-19 14:14:28,005 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2026-04-19 14:14:28,005 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-19 14:14:28,065 INFO o.h.o.jpa [restartedMain] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-19 14:14:28,082 INFO o.h.o.core [restartedMain] HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-19 14:14:28,209 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2026-04-19 14:14:28,274 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6ba81489
+2026-04-19 14:14:28,275 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2026-04-19 14:14:28,302 INFO o.h.o.c.pooling [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/fairshare]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 15.17
+	Default catalog/schema: fairshare/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-19 14:14:28,594 INFO o.h.o.core [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-19 14:14:28,918 INFO o.a.c.h.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2026-04-19 14:14:28,927 INFO c.f.FairshareBackendApplication [restartedMain] Started FairshareBackendApplication in 1.461 seconds (process running for 1.797)
+2026-04-19 14:14:28,927 WARN o.s.c.e.SpringDocAppInitializer [restartedMain] SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-19 14:14:28,928 WARN o.s.c.e.SpringDocAppInitializer [restartedMain] SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-19 14:14:28,928 INFO c.f.c.DataInitializer [restartedMain] Systeem gestart, data inladen...
+2026-04-19 14:14:29,055 INFO c.f.c.DataInitializer [restartedMain] Aantal users: 2
+2026-04-19 14:17:46,662 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-19 14:19:18,080 WARN o.h.o.j.error [http-nio-8080-exec-8] HHH000247: ErrorCode: 0, SQLState: 23505
+2026-04-19 14:19:18,082 WARN o.h.o.j.error [http-nio-8080-exec-8] ERROR: duplicate key value violates unique constraint "group_members_user_id_key"
+  Detail: Key (user_id)=(1) already exists.
+2026-04-19 14:19:18,097 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [http-nio-8080-exec-8] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: could not execute statement [ERROR: duplicate key value violates unique constraint "group_members_user_id_key"
+  Detail: Key (user_id)=(1) already exists.] [insert into group_members (group_id,user_id) values (?,?)]; SQL [insert into group_members (group_id,user_id) values (?,?)]; constraint [group_members_user_id_key]] with root cause
+org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "group_members_user_id_key"
+  Detail: Key (user_id)=(1) already exists.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2875)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2560)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:429)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:526)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:436)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:196)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:157)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:181)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:145)
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:53)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:66)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55)
+	at org.hibernate.persister.collection.mutation.InsertRowsCoordinatorStandard.insertRows(InsertRowsCoordinatorStandard.java:101)
+	at org.hibernate.persister.collection.BasicCollectionPersister.recreate(BasicCollectionPersister.java:95)
+	at org.hibernate.action.internal.CollectionUpdateAction.execute(CollectionUpdateAction.java:83)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:634)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:505)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:381)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138)
+	at org.hibernate.internal.SessionImpl.fireFlush(SessionImpl.java:1484)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:481)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2111)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2033)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:410)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:166)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commitNoRollbackOnly(JdbcResourceLocalTransactionCoordinatorImpl.java:248)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:242)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:89)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:553)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:794)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:757)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:687)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:408)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:130)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:135)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:166)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:222)
+	at jdk.proxy4/jdk.proxy4.$Proxy163.save(Unknown Source)
+	at com.fairshare.service.GroupService.addUserToGroup(GroupService.java:46)
+	at com.fairshare.controller.GroupController.addUserToGroup(GroupController.java:43)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:235)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:181)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:110)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:96)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:237)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:195)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:317)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:355)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:272)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1779)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-04-19 14:19:53,246 WARN o.h.o.j.error [http-nio-8080-exec-9] HHH000247: ErrorCode: 0, SQLState: 23505
+2026-04-19 14:19:53,247 WARN o.h.o.j.error [http-nio-8080-exec-9] ERROR: duplicate key value violates unique constraint "group_members_user_id_key"
+  Detail: Key (user_id)=(1) already exists.
+2026-04-19 14:19:53,250 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [http-nio-8080-exec-9] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: could not execute statement [ERROR: duplicate key value violates unique constraint "group_members_user_id_key"
+  Detail: Key (user_id)=(1) already exists.] [insert into group_members (group_id,user_id) values (?,?)]; SQL [insert into group_members (group_id,user_id) values (?,?)]; constraint [group_members_user_id_key]] with root cause
+org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "group_members_user_id_key"
+  Detail: Key (user_id)=(1) already exists.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2875)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2560)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:429)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:526)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:436)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:196)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:157)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:181)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:145)
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:53)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:66)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55)
+	at org.hibernate.persister.collection.mutation.InsertRowsCoordinatorStandard.insertRows(InsertRowsCoordinatorStandard.java:101)
+	at org.hibernate.persister.collection.BasicCollectionPersister.recreate(BasicCollectionPersister.java:95)
+	at org.hibernate.action.internal.CollectionUpdateAction.execute(CollectionUpdateAction.java:83)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:634)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:505)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:381)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138)
+	at org.hibernate.internal.SessionImpl.fireFlush(SessionImpl.java:1484)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:481)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2111)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2033)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:410)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:166)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commitNoRollbackOnly(JdbcResourceLocalTransactionCoordinatorImpl.java:248)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:242)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:89)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:553)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:794)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:757)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:687)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:408)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:130)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:135)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:166)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:222)
+	at jdk.proxy4/jdk.proxy4.$Proxy163.save(Unknown Source)
+	at com.fairshare.service.GroupService.addUserToGroup(GroupService.java:46)
+	at com.fairshare.controller.GroupController.addRemoveFromGroup(GroupController.java:51)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:925)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:651)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:235)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:181)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:110)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:96)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:380)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:237)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:195)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:317)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:355)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:272)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1779)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-04-19 14:20:28,201 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2026-04-19 14:20:28,203 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2026-04-19 14:20:29,646 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-19 14:20:29,656 INFO c.f.FairshareBackendApplication [restartedMain] Starting FairshareBackendApplication using Java 25 with PID 29608 (/Users/buraq-mac/Documents/GitHub/fairshare-backend/target/classes started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-19 14:20:29,657 INFO c.f.FairshareBackendApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2026-04-19 14:20:30,078 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-19 14:20:30,078 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2026-04-19 14:20:30,079 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-19 14:20:30,138 INFO o.h.o.jpa [restartedMain] HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-19 14:20:30,154 INFO o.h.o.core [restartedMain] HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-19 14:20:30,280 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2026-04-19 14:20:30,338 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@9c176eb
+2026-04-19 14:20:30,339 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2026-04-19 14:20:30,366 INFO o.h.o.c.pooling [restartedMain] HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/fairshare]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 15.17
+	Default catalog/schema: fairshare/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-19 14:20:30,667 INFO o.h.o.core [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-19 14:20:30,985 INFO o.a.c.h.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2026-04-19 14:20:30,995 INFO c.f.FairshareBackendApplication [restartedMain] Started FairshareBackendApplication in 1.431 seconds (process running for 1.758)
+2026-04-19 14:20:30,996 WARN o.s.c.e.SpringDocAppInitializer [restartedMain] SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-19 14:20:30,996 WARN o.s.c.e.SpringDocAppInitializer [restartedMain] SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-19 14:20:30,996 INFO c.f.c.DataInitializer [restartedMain] Systeem gestart, data inladen...
+2026-04-19 14:20:31,121 INFO c.f.c.DataInitializer [restartedMain] Aantal users: 4
+2026-04-19 14:20:45,806 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-19 14:20:59,436 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 9.0.1.Final
+2026-04-19 14:20:59,450 INFO c.f.C.GroupControllerTests [main] Starting GroupControllerTests using Java 25 with PID 29754 (started by buraq-mac in /Users/buraq-mac/Documents/GitHub/fairshare-backend)
+2026-04-19 14:20:59,451 INFO c.f.C.GroupControllerTests [main] No active profile set, falling back to 1 default profile: "default"
+2026-04-19 14:21:00,178 INFO c.f.C.GroupControllerTests [main] Started GroupControllerTests in 0.826 seconds (process running for 1.479)
