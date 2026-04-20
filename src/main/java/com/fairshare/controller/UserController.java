@@ -37,7 +37,7 @@ public class UserController {
     @Operation(summary = "Get a user by id", description = "Return a user by id")
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", description = "User found and returned"),
-            @ApiResponse(responseCode = "404", description = "User not found") // Belangrijke toevoeging!
+            @ApiResponse(responseCode = "404", description = "User not found")
     })
     @GetMapping("/{id}")
     public ResponseEntity<Optional<User>> getUser(@PathVariable Long id) throws Exception {
@@ -48,7 +48,7 @@ public class UserController {
 
     @Operation(summary = "Create a user", description = "Return a user")
     @ApiResponses(value = {
-            @ApiResponse(responseCode = "201", description = "User successfully created"), // 201 is de standaard voor 'Created'
+            @ApiResponse(responseCode = "201", description = "User successfully created"),
             @ApiResponse(responseCode = "400", description = "Invalid input data")
     })
     @PostMapping
