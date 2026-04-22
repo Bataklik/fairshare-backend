@@ -24,7 +24,8 @@ public class UserService {
         return userRepo.save(user);
     }
 
-    public Optional<User> getUser(Long id) {
-        return userRepo.findById(id);
+    public User getUser(Long id) throws Exception {
+        return userRepo.findById(id)
+                .orElseThrow(() -> new Exception("User not found!"));
     }
 }

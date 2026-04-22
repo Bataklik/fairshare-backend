@@ -25,8 +25,9 @@ public class ExpenseService {
         return expenseRepository.save(newExpense);
     }
 
-    public Optional<Expense> getExpenseById(Long expenseId){
-        return expenseRepository.findById(expenseId);
+    public Expense getExpenseById(Long expenseId) throws Exception {
+        return expenseRepository.findById(expenseId)
+                .orElseThrow(() -> new Exception("Expense not found!"));
     }
 
     public List<Expense> getExpenseByPaidBy(User paidByUser){

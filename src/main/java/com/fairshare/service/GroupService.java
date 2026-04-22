@@ -29,6 +29,10 @@ public class GroupService {
         return groupRepository.findById(id);
     }
 
+    public boolean groupExists(long groupId){
+        return groupRepository.existsById(groupId);
+    }
+
     public Group createGroup(Group group) {
         return groupRepository.save(group);
     }
@@ -42,9 +46,11 @@ public class GroupService {
                 .findById(groupId)
                 .orElseThrow(() -> new Exception("Group doesn't exist!"));
 
-        boolean isAdded = existingGroup.addUser(exstingUser);
+        boolean isAddedGroup = existingGroup.addUser(exstingUser);
+        boolean isAddedUser = exstingUser.addGroup(existingGroup);
         groupRepository.save(existingGroup);
-        return isAdded;
+        userRepository.save(exstingUser);
+        return isAddedGroup && isAddedUser;
     }
 
     public boolean removeUserFromGroup(Long userId, Long groupId) throws Exception {
