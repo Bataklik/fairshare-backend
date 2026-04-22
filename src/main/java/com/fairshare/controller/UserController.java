@@ -1,5 +1,8 @@
 package com.fairshare.controller;
 
+import com.fairshare.dto.CreateUserDTO;
+import com.fairshare.dto.UserDTO;
+import com.fairshare.mapper.UserMapper;
 import com.fairshare.model.User;
 import com.fairshare.service.UserService;
 import io.swagger.v3.oas.annotations.Operation;
@@ -10,7 +13,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Optional;
 
 @RestController
 @RequestMapping("/users")
@@ -22,16 +24,17 @@ public class UserController {
         this.userService = service;
     }
 
-    //TODO: DTO's toevoegen
-
     @Operation(summary = "Get all users", description = "Returns all users")
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", description = "Successfully retrieved"),
     })
     @GetMapping
     @ResponseStatus(HttpStatus.OK)
-    public List<User> getAllUsers() {
-        return userService.getAllUsers();
+    public List<UserDTO> getAllUsers() {
+        return userService.getAllUsers()
+                .stream()
+                .map(UserMapper::toDto)
+                .toList();
     }
 
     @Operation(summary = "Get a user by id", description = "Return a user by id")
@@ -40,10 +43,9 @@ public class UserController {
             @ApiResponse(responseCode = "404", description = "User not found")
     })
     @GetMapping("/{id}")
-    public ResponseEntity<Optional<User>> getUser(@PathVariable Long id) throws Exception {
+    public ResponseEntity<UserDTO> getUser(@PathVariable Long id) throws Exception {
         var foundUser = userService.getUser(id);
-        if (foundUser.isEmpty()) throw new Exception("User not found!");
-        return ResponseEntity.ok(foundUser);
+        return ResponseEntity.ok(UserMapper.toDto(foundUser));
     }
 
     @Operation(summary = "Create a user", description = "Return a user")
@@ -52,8 +54,9 @@ public class UserController {
             @ApiResponse(responseCode = "400", description = "Invalid input data")
     })
     @PostMapping
-    public User createUser(@RequestBody User user) {
-        return userService.createUser(user);
+    @ResponseStatus(HttpStatus.CREATED)
+    public UserDTO createUser(@RequestBody CreateUserDTO createUserDTO) {
+        User userEntityIn = UserMapper.toEntity(createUserDTO);
+        return UserMapper.toDto(userService.createUser(userEntityIn));
     }
-
 }

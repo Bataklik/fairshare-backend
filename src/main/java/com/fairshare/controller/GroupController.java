@@ -2,14 +2,17 @@ package com.fairshare.controller;
 
 import com.fairshare.model.Group;
 import com.fairshare.service.GroupService;
+import com.fairshare.service.BalanceService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
+import org.apache.coyote.Response;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 
 @RestController
@@ -17,9 +20,11 @@ import java.util.Optional;
 public class GroupController {
 
     private final GroupService groupService;
+    private final BalanceService balanceService;
 
-    public GroupController(GroupService groupService) {
+    public GroupController(GroupService groupService,BalanceService balanceService) {
         this.groupService = groupService;
+        this.balanceService = balanceService;
     }
 
     @Operation(summary = "Get all groups", description = "Retrieves a list of all available groups")
@@ -35,6 +40,7 @@ public class GroupController {
     public Optional<Group> getGroup(@PathVariable Long id) {
         return groupService.getGroup(id);
     }
+
 
     @Operation(summary = "Create a new group")
     @ApiResponses(value = {
@@ -70,6 +76,20 @@ public class GroupController {
 
         return success ? ResponseEntity.noContent().build() :
                 ResponseEntity.badRequest().build();
+    }
+
+
+    @Operation(summary = "Get a group balance", description = "Returns balance of the group")
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "200", description = "Successfully retrieved"),
+    })
+    // TODO: ? -> BalanceDto
+    @GetMapping("/{groupId}/balance")
+    public ResponseEntity<?> getBalance(@PathVariable int groupId) throws Exception {
+        List<Map<String, Object>> balance = balanceService
+                .getBalance(groupId);
+
+        return ResponseEntity.accepted().build();
     }
 
 }
