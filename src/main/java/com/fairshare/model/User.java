@@ -28,4 +28,10 @@ public class User {
     )
     @JsonIgnoreProperties("users")
     private List<Group> groups = new java.util.ArrayList<>();
+
+    public boolean addGroup(Group group) {
+        if(group == null) return false;
+        groups.add(group);
+        return true;
+    }
 }
