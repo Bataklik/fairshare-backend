@@ -35,16 +35,6 @@ public class GroupControllerTests {
     @MockitoBean
     private GroupService groupServiceMock;
 
-    @MockitoBean
-    private GroupRepository groupRepository;
-    @MockitoBean
-    private UserRepository userRepository;
-    @MockitoBean
-    private ExpenseRepository expenseRepository;
-
-    private final ObjectMapper objectMapper = new ObjectMapper();
-
-
     @Test
     @WithMockUser
     public void getAllGroups_returns_AllGroups() throws Exception {
