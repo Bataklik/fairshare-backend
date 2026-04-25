@@ -22,7 +22,6 @@ import io.swagger.v3.oas.annotations.responses.ApiResponses;
 public class ExpenseController {
 
     private final ExpenseService expenseService;
-    private final ExpenseMapper expenseMapper = new ExpenseMapper();
 
     public ExpenseController(ExpenseService expenseService) {
         this.expenseService = expenseService;
