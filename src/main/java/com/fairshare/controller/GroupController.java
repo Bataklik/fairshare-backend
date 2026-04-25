@@ -1,5 +1,8 @@
 package com.fairshare.controller;
 
+import com.fairshare.dto.CreateGroupDTO;
+import com.fairshare.dto.GroupDTO;
+import com.fairshare.mapper.GroupMapper;
 import com.fairshare.model.Group;
 import com.fairshare.service.GroupService;
 import com.fairshare.service.BalanceService;
@@ -30,15 +33,18 @@ public class GroupController {
     @Operation(summary = "Get all groups", description = "Retrieves a list of all available groups")
     @GetMapping
     @ResponseStatus(HttpStatus.OK)
-    public List<Group> getAllGroups() {
-        return groupService.getAllGroups();
+    public List<GroupDTO> getAllGroups() {
+        return groupService.getAllGroups()
+                .stream()
+                .map(GroupMapper::toDto)
+                .toList();
     }
 
     @Operation(summary = "Get group by id", description = "Returns a group by id")
     @GetMapping("/{id}")
     @ResponseStatus(HttpStatus.OK)
-    public Optional<Group> getGroup(@PathVariable Long id) {
-        return groupService.getGroup(id);
+    public GroupDTO getGroup(@PathVariable Long id) throws Exception {
+        return GroupMapper.toDto(groupService.getGroup(id));
     }
 
 
@@ -48,8 +54,9 @@ public class GroupController {
     })
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
-    public Group createGroup(@RequestBody Group group) {
-        return groupService.createGroup(group);
+    public GroupDTO createGroup(@RequestBody CreateGroupDTO groupDto) {
+        Group groupEntityIn = GroupMapper.toEntity(groupDto);
+        return GroupMapper.toDto(groupService.createGroup(groupEntityIn));
     }
 
 
