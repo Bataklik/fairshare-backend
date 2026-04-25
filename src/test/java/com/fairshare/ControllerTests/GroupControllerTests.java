@@ -2,11 +2,8 @@ package com.fairshare.ControllerTests;
 
 import com.fairshare.controller.GroupController;
 import com.fairshare.model.Group;
-import com.fairshare.repository.ExpenseRepository;
-import com.fairshare.repository.GroupRepository;
-import com.fairshare.repository.UserRepository;
+import com.fairshare.service.BalanceService;
 import com.fairshare.service.GroupService;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.webmvc.test.autoconfigure.WebMvcTest;
@@ -18,6 +15,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 
+import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.when;
 import static org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors.csrf;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
@@ -34,6 +32,8 @@ public class GroupControllerTests {
 
     @MockitoBean
     private GroupService groupServiceMock;
+    @MockitoBean
+    private BalanceService balanceService;
 
     @Test
     @WithMockUser
@@ -57,7 +57,7 @@ public class GroupControllerTests {
         //? Arrange
         Group group_b = new Group(2L, "Gulzigen",List.of());
         when(groupServiceMock.getGroup(2L))
-                .thenReturn(Optional.of(group_b));
+                .thenReturn(group_b);
 
         mockMvc.perform(get("/groups/" + 2L)
                         .with(csrf()))
@@ -69,9 +69,9 @@ public class GroupControllerTests {
     @WithMockUser
     public void createUser_returns_CreatedUser() throws Exception {
         //? Arrange
-        String groupJson = "{\"id\":1, \"name\":\"Gulzigen\", \"users\":[]}";
+        String groupJson = "{\"name\":\"Gulzigen\", \"users\":[]}";
         Group createGroup = new Group(1L, "Gulzigen",List.of());
-        when(groupServiceMock.createGroup(createGroup))
+        when(groupServiceMock.createGroup(any(Group.class)))
                 .thenReturn(createGroup);
 
         mockMvc.perform(post("/groups")
@@ -79,8 +79,8 @@ public class GroupControllerTests {
                         .contentType("application/json")
                         .content(groupJson))
                 .andExpect(status().isCreated())
-                .andExpect(jsonPath("$.id").value(1L))
-                .andExpect(jsonPath("$.name").value("Gulzigen"));
+                .andExpect(jsonPath("$.name").value("Gulzigen"))
+                .andExpect(jsonPath("$.users").isEmpty());
     }
 
     @Test
