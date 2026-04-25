@@ -22,8 +22,8 @@ public class DataInitializer {
     public void runAfterStartup() {
         log.info("Systeem gestart, data inladen...");
 
-        User newUser = new User();
-        newUser.setName("John Doe");
+        //User newUser = new User();
+        //newUser.setName("John Doe");
         //repository.save(newUser);
 
         log.info("Aantal users: {}", repository.count());
