@@ -1,6 +1,7 @@
 package com.fairshare.model;
 
 
+import java.util.ArrayList;
 import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
@@ -31,8 +32,11 @@ public class Group {
 
     @ManyToMany(mappedBy = "groups", cascade=CascadeType.ALL)
     @JsonIgnoreProperties("groups")
-    private List<User> users = new java.util.ArrayList<>();
+    private List<User> users = new ArrayList<>();
 
+    public Group(String name) {
+        this.name = name;
+    }
 
     public boolean addUser(User user) {
         if(user == null) return false;
