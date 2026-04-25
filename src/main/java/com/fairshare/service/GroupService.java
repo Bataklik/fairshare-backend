@@ -25,8 +25,10 @@ public class GroupService {
         return groupRepository.findAll();
     }
 
-    public Optional<Group> getGroup(long id) {
-        return groupRepository.findById(id);
+    public Group getGroup(long id) throws Exception {
+        return groupRepository
+                .findById(id)
+                .orElseThrow(() -> new Exception("Group not found!"));
     }
 
     public boolean groupExists(long groupId){
