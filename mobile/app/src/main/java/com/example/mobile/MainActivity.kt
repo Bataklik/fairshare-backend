@@ -13,7 +13,8 @@ import androidx.compose.runtime.livedata.observeAsState
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.mobile.ViewModels.MyViewModel
+import com.example.mobile.features.expenses.ui.ExpensesViewModel
+import com.example.mobile.features.groups.ui.GroupsViewModel
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -31,7 +32,7 @@ class MainActivity : AppCompatActivity() {
 }
 
 @Composable
-fun LaadData(modifier: Modifier = Modifier, viewModel: MyViewModel = viewModel()) {
+fun LaadData(modifier: Modifier = Modifier, viewModel: GroupsViewModel = viewModel()) {
     val data = viewModel.data.observeAsState().value
 
     if (data != null) {
