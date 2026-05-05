@@ -1,4 +1,4 @@
-package com.example.mobile
+package com.example.mobile.features.groups.domain
 
 data class Group(
     val id: Long,
