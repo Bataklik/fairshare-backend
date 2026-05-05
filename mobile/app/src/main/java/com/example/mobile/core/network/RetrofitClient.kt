@@ -1,10 +1,10 @@
-package com.example.mobile
+package com.example.mobile.core.network
 
-import com.example.mobile.services.ExpenseApiService
+import com.example.mobile.features.expenses.data.ExpenseApiService
+import com.example.mobile.features.groups.data.GroupApiService
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
 import okhttp3.OkHttpClient
-import okhttp3.Response
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
@@ -30,5 +30,14 @@ object RetrofitClient {
             .client(okHttpClient)
             .build()
             .create(ExpenseApiService::class.java)
+    }
+
+    val groupApiService: GroupApiService by lazy {
+        Retrofit.Builder()
+            .baseUrl(BASE_URL)
+            .addConverterFactory(MoshiConverterFactory.create(moshi as Moshi))
+            .client(okHttpClient)
+            .build()
+            .create(GroupApiService::class.java)
     }
 }
