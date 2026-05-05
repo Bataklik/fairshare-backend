@@ -50,6 +50,8 @@ dependencies {
     implementation("com.squareup.retrofit2:converter-moshi:3.0.0")
     implementation("androidx.compose.material3:material3:1.4.0")
     implementation("androidx.compose.material3:material3-window-size-class:1.4.0")
+    implementation("androidx.compose.material:material-icons-core:1.7.8")
+    implementation("androidx.compose.material:material-icons-extended:1.7.8")
     implementation("androidx.compose.material3:material3-adaptive-navigation-suite:1.5.0-alpha18")
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.10.0")
     implementation("androidx.compose.runtime:runtime-livedata:1.11.0")
