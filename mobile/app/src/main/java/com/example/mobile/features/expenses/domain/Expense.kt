@@ -1,4 +1,6 @@
-package com.example.mobile.models
+package com.example.mobile.features.expenses.domain
+
+import com.example.mobile.features.users.domain.User
 
 data class Expense(
     val id: Long,
