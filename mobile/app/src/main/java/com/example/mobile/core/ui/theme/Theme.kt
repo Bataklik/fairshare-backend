@@ -11,7 +11,8 @@ private val LightColorScheme = lightColorScheme(
     onBackground = AppDark,
     surface = AppWhite,
     onSurface = AppTextGrey,
-    tertiary = AppTealDark
+    tertiary = AppTealDark,
+    onTertiary = AppTipBackground
 
 )
 

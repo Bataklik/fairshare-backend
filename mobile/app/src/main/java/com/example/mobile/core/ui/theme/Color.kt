@@ -4,6 +4,7 @@ import androidx.compose.ui.graphics.Color
 
 
 val AppBackground = Color(0xFFF0EEE9)
+val AppTipBackground = Color(0xFFF1EFE9)
 val AppWhite = Color(0xFFFFFFFF)
 val AppTextGrey = Color(0xFF6E7672)
 val AppButtonGreen = Color(0xFF2E8B7D)
