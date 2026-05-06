@@ -3,9 +3,12 @@ package com.example.mobile
 import android.os.Bundle
 import androidx.activity.compose.setContent
 import androidx.appcompat.app.AppCompatActivity
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
@@ -23,26 +26,55 @@ import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.mobile.features.groups.ui.GroupsViewModel
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.AccountBox
+import androidx.compose.material.icons.filled.Add
+import androidx.compose.material.icons.filled.Balance
+import androidx.compose.material.icons.filled.Groups
+import androidx.compose.material.icons.outlined.AccountBox
+import androidx.compose.material.icons.outlined.Balance
+import androidx.compose.material.icons.outlined.Groups
 import androidx.compose.material.icons.rounded.Menu
 import androidx.compose.material.icons.rounded.Notifications
 import androidx.compose.material.icons.rounded.Search
+import androidx.compose.material3.BadgedBox
+import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonDefaults
+import androidx.compose.material3.NavigationBar
+import androidx.compose.material3.NavigationBarItem
+import androidx.compose.material3.NavigationBarItemDefaults
+import androidx.compose.material3.NavigationItemColors
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableIntStateOf
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.text.font.FontWeight
+import com.example.mobile.core.components.BotBar
+import com.example.mobile.core.components.TopBar
+import com.example.mobile.core.ui.theme.FairShareTheme
+import com.example.mobile.features.groups.ui.GroupScreen
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            MaterialTheme {
+            FairShareTheme {
                 val scrollBehavior = TopAppBarDefaults.enterAlwaysScrollBehavior(
                     state = rememberTopAppBarState()
                 )
                 Scaffold(
-                    modifier = Modifier.fillMaxSize(),
+                    modifier = Modifier
+                        .fillMaxSize()
+                        .background(MaterialTheme.colorScheme.background),
                     topBar = {
                         TopBar(
                             scrollBehavior = scrollBehavior
                         )
                     },
-                    bottomBar = {},
+                    bottomBar = {
+                        BotBar()
+                    },
                     floatingActionButton = {}
                 ) { paddingValues ->
                     GroupScreen(
@@ -70,57 +102,20 @@ fun LaadData(modifier: Modifier = Modifier, viewModel: GroupsViewModel = viewMod
 }
 
 
-@Composable
-fun GroupScreen(modifier: Modifier = Modifier) {
 
-}
-
-
-@Composable
-fun TopBar(
-    modifier: Modifier = Modifier,
-    scrollBehavior: TopAppBarScrollBehavior
-) {
-    TopAppBar(
-        modifier = modifier,
-        scrollBehavior = scrollBehavior,
-        colors = TopAppBarDefaults.topAppBarColors(
-            containerColor = MaterialTheme.colorScheme.surfaceVariant.copy(0.6f)
-        ),
-        title = {
-            Text(
-                text = "Groups",
-                color = MaterialTheme.colorScheme.onBackground.copy(0.7f),
-                fontSize = 24.sp
-            )
-        },
-        actions = {
-            Icon(
-                imageVector = Icons.Rounded.Search,
-                contentDescription= null,
-                modifier = Modifier.padding(end = 12.dp,)
-                    .size(32.dp)
-            )
-            Icon(
-                imageVector = Icons.Rounded.Notifications,
-                contentDescription= null,
-                modifier = Modifier.padding(end = 8.dp,)
-                    .size(32.dp)
-            )
-        }
-    )
-}
 
 @Preview(showBackground = true, showSystemUi = true)
 @Composable
-fun GroupScreenPreview() {
-    MaterialTheme {
+fun MainActivityPreview() {
+    FairShareTheme {
         val scrollBehavior = TopAppBarDefaults.enterAlwaysScrollBehavior()
 
         Scaffold(
-            topBar = { TopBar(scrollBehavior = scrollBehavior) }
+            topBar = { TopBar(scrollBehavior = scrollBehavior) },
+            bottomBar = { BotBar() }
         ) { paddingValues ->
             GroupScreen(modifier = Modifier.padding(paddingValues))
         }
     }
 }
+
