@@ -57,11 +57,11 @@ class MainActivity : AppCompatActivity() {
 // https://www.youtube.com/watch?v=laL2lAts_Rc
 @Composable
 fun LaadData(modifier: Modifier = Modifier, viewModel: GroupsViewModel = viewModel()) {
-    val data = viewModel.data.observeAsState().value
+    //val data = viewModel.data.observeAsState().value
 
-    if (data != null) {
+    if ("data" != null) {
         Text(
-            text = data,
+            text = "data",
             modifier = modifier.padding(16.dp)
         )
     } else {
