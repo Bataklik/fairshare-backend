@@ -39,8 +39,8 @@ public class GroupControllerTests {
     @WithMockUser
     public void getAllGroups_returns_AllGroups() throws Exception {
         //? Arrange
-        Group group_a = new Group(1L,"De spenders", List.of());
-        Group group_b = new Group(2L, "Gulzigen",List.of());
+        Group group_a = new Group(1L,"De spenders","Travel", List.of());
+        Group group_b = new Group(2L, "Gulzigen","Drink",List.of());
         when(groupServiceMock.getAllGroups())
                 .thenReturn(Arrays.asList(group_a, group_b));
 
@@ -55,7 +55,7 @@ public class GroupControllerTests {
     @WithMockUser
     public void getGroup_returns_Group() throws Exception {
         //? Arrange
-        Group group_b = new Group(2L, "Gulzigen",List.of());
+        Group group_b = new Group(2L, "Gulzigen","Drink",List.of());
         when(groupServiceMock.getGroup(2L))
                 .thenReturn(group_b);
 
@@ -70,7 +70,7 @@ public class GroupControllerTests {
     public void createUser_returns_CreatedUser() throws Exception {
         //? Arrange
         String groupJson = "{\"name\":\"Gulzigen\", \"users\":[]}";
-        Group createGroup = new Group(1L, "Gulzigen",List.of());
+        Group createGroup = new Group(1L, "Gulzigen","Drink",List.of());
         when(groupServiceMock.createGroup(any(Group.class)))
                 .thenReturn(createGroup);
 
