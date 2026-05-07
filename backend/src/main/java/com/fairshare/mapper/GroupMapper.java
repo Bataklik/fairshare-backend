@@ -8,13 +8,14 @@ import com.fairshare.model.User;
 public class GroupMapper {
 
     public static Group toEntity(CreateGroupDTO createGroupDTO){
-        return new Group(createGroupDTO.name());
+        return new Group(createGroupDTO.name(), createGroupDTO.icon());
     }
 
     public static GroupDTO toDto(Group group){
         return new GroupDTO(
                 group.getId(),
                 group.getName(),
+                group.getIcon(),
                 group.getUsers()
                         .stream()
                         .map(User::getName)
