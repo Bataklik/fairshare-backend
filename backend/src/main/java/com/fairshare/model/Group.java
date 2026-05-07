@@ -28,14 +28,17 @@ public class Group {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+
     private String name;
+    private String icon;
 
     @ManyToMany(mappedBy = "groups", cascade=CascadeType.ALL)
     @JsonIgnoreProperties("groups")
     private List<User> users = new ArrayList<>();
 
-    public Group(String name) {
+    public Group(String name, String icon) {
         this.name = name;
+        this.icon = icon;
     }
 
     public boolean addUser(User user) {
