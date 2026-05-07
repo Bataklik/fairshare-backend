@@ -1,7 +1,6 @@
 package com.example.mobile.features.groups.ui
 
 import androidx.compose.foundation.Canvas
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -12,6 +11,8 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
@@ -38,15 +39,22 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.mobile.core.components.BotBar
 import com.example.mobile.core.components.TopBar
 import com.example.mobile.core.ui.theme.AppButtonGreen
 import com.example.mobile.core.ui.theme.AppDark
 import com.example.mobile.core.ui.theme.AppTextGrey
 import com.example.mobile.core.ui.theme.FairShareTheme
+import com.example.mobile.features.groups.domain.Group
 
 @Composable
-fun Screen(modifier: Modifier = Modifier) {
+fun Screen(
+    modifier: Modifier = Modifier,
+    viewModel: GroupsViewModel = viewModel()
+) {
+    val groups = viewModel.groupState
+
     FairShareTheme {
         Spacer(Modifier.height(28.dp))
         Column(
@@ -54,46 +62,71 @@ fun Screen(modifier: Modifier = Modifier) {
                 .fillMaxSize()
                 .padding(16.dp),
             horizontalAlignment = Alignment.CenterHorizontally,
-            verticalArrangement = Arrangement.SpaceBetween
+            verticalArrangement = if (groups.isEmpty()) Arrangement.SpaceBetween else Arrangement.Top
         ) {
-            BalanceSection()
-            Column(
-                horizontalAlignment = Alignment.CenterHorizontally,
-                modifier = Modifier.padding(horizontal = 24.dp)
-            ) {
-                IconComponent()
-                Spacer(Modifier.size(18.dp))
-                Text(
-                    text = "Start your first group",
-                    color = MaterialTheme.colorScheme.onBackground,
-                    fontWeight = FontWeight.Medium,
-                    textAlign = TextAlign.Center,
-                    style = MaterialTheme.typography.headlineSmall,
-                )
-                Text(
-                    text = "Groups are how you split bills with roommates, trips, or anyone. Add people and track expenses forever.",
-                    textAlign = TextAlign.Center,
-                    color = MaterialTheme.colorScheme.onSurface,
-                    fontWeight = FontWeight.Normal,
-                    style = MaterialTheme.typography.bodyMedium,
-                )
+            BalanceCard()
 
-            }
-
-            Column(
-                modifier = Modifier.fillMaxWidth(),
-                horizontalAlignment = Alignment.CenterHorizontally,
-                verticalArrangement = Arrangement.spacedBy(12.dp)
-            ) {
-                TipContainer(Modifier)
-                ButtonSection()
+            if (groups.isEmpty()) {
+                InfoContainer()
+                Column(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalAlignment = Alignment.CenterHorizontally,
+                    verticalArrangement = Arrangement.spacedBy(12.dp)
+                ) {
+                    TipContainer(Modifier)
+                    ButtonSection()
+                }
+            } else Column(modifier = Modifier
+                .padding(vertical = 14.dp)){
+                Text(
+                    text = "Your groups",
+                    style = MaterialTheme.typography.bodySmall,
+                    fontWeight = FontWeight.SemiBold,
+                    color = MaterialTheme.colorScheme.secondary,
+                    fontSize = 14.sp
+                )
+                LazyColumn(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(vertical = 4.dp),
+                    verticalArrangement = Arrangement.spacedBy(8.dp)
+                ) {
+                    items(groups) { group ->
+                        GroupsItem(group = group)
+                    }
+                }
             }
         }
-        Spacer(Modifier.height(24.dp))
-
-
     }
 }
+
+@Composable
+private fun InfoContainer() {
+    Column(
+        horizontalAlignment = Alignment.CenterHorizontally,
+        modifier = Modifier.padding(horizontal = 24.dp)
+    ) {
+        IconComponent()
+        Spacer(Modifier.size(18.dp))
+        Text(
+            text = "Start your first group",
+            color = MaterialTheme.colorScheme.onBackground,
+            fontWeight = FontWeight.Medium,
+            textAlign = TextAlign.Center,
+            style = MaterialTheme.typography.headlineSmall,
+        )
+        Text(
+            text = "Groups are how you split bills with roommates, trips, or anyone. Add people and track expenses forever.",
+            textAlign = TextAlign.Center,
+            color = MaterialTheme.colorScheme.onSurface,
+            fontWeight = FontWeight.Normal,
+            style = MaterialTheme.typography.bodyMedium,
+        )
+    }
+}
+
+
+
 
 @Preview(showBackground = true, showSystemUi = true)
 @Composable
@@ -164,46 +197,48 @@ fun IconComponent() {
 
 
 @Composable
-fun BalanceSection() {
-    Card(
-        modifier = Modifier
-            .padding(horizontal = 16.dp, vertical = 8.dp)
-            .fillMaxWidth(),
-        shape = RoundedCornerShape(16.dp),
-        colors = CardDefaults.cardColors(
-            containerColor = MaterialTheme.colorScheme.onPrimary
-        ),
-        elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)
-    ) {
-        Column(
-            modifier = Modifier.padding(24.dp)
+fun BalanceCard() {
+    Column(horizontalAlignment = Alignment.CenterHorizontally) {
+
+        Card(
+            modifier = Modifier
+                .fillMaxWidth(),
+            shape = RoundedCornerShape(16.dp),
+            colors = CardDefaults.cardColors(
+                containerColor = MaterialTheme.colorScheme.onPrimary
+            ),
+            elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)
         ) {
-            Text(
-                text = "OVERALL BALANCE",
-                style = MaterialTheme.typography.bodySmall,
-                fontWeight = FontWeight.SemiBold,
-                color = MaterialTheme.colorScheme.secondary,
-                fontSize = 14.sp
-            )
-            Spacer(Modifier.size(6.dp))
-            Row(
-                verticalAlignment = Alignment.CenterVertically,
+            Column(
+                modifier = Modifier.padding(24.dp)
             ) {
                 Text(
-                    text = "$0.00",
-                    style = MaterialTheme.typography.bodyLarge,
+                    text = "OVERALL BALANCE",
+                    style = MaterialTheme.typography.bodySmall,
+                    fontWeight = FontWeight.SemiBold,
                     color = MaterialTheme.colorScheme.secondary,
-                    fontWeight = FontWeight.Medium,
-                    fontSize = 20.sp,
-                    modifier = Modifier.padding(end = 8.dp)
+                    fontSize = 14.sp
                 )
-                Text(
-                    text = "nothing to settle",
-                    style = MaterialTheme.typography.labelSmall,
-                    color = MaterialTheme.colorScheme.secondary,
-                    fontWeight = FontWeight.Medium,
-                    fontSize = 12.sp
-                )
+                Spacer(Modifier.size(6.dp))
+                Row(
+                    verticalAlignment = Alignment.CenterVertically,
+                ) {
+                    Text(
+                        text = "$0.00",
+                        style = MaterialTheme.typography.bodyLarge,
+                        color = MaterialTheme.colorScheme.secondary,
+                        fontWeight = FontWeight.Medium,
+                        fontSize = 20.sp,
+                        modifier = Modifier.padding(end = 8.dp)
+                    )
+                    Text(
+                        text = "nothing to settle",
+                        style = MaterialTheme.typography.labelSmall,
+                        color = MaterialTheme.colorScheme.secondary,
+                        fontWeight = FontWeight.Medium,
+                        fontSize = 12.sp
+                    )
+                }
             }
         }
     }
