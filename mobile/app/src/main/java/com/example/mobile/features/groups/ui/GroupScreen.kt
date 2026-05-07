@@ -9,12 +9,14 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
+import androidx.compose.material.icons.filled.Lightbulb
 import androidx.compose.material.icons.outlined.Group
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
@@ -22,8 +24,10 @@ import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
+import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -34,24 +38,28 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.example.mobile.core.components.BotBar
+import com.example.mobile.core.components.TopBar
 import com.example.mobile.core.ui.theme.AppButtonGreen
 import com.example.mobile.core.ui.theme.AppDark
 import com.example.mobile.core.ui.theme.AppTextGrey
 import com.example.mobile.core.ui.theme.FairShareTheme
 
 @Composable
-fun GroupScreen(modifier: Modifier = Modifier) {
-    Column(
-        modifier = Modifier.fillMaxSize(),
-        horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.Center
-    ) {
-        BalanceSection()
-        Spacer(Modifier.size(16.dp))
-        Column(horizontalAlignment = Alignment.CenterHorizontally) {
+fun Screen(modifier: Modifier = Modifier) {
+    FairShareTheme {
+        Spacer(Modifier.height(28.dp))
+        Column(
+            modifier = modifier
+                .fillMaxSize()
+                .padding(16.dp),
+            horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.SpaceBetween
+        ) {
+            BalanceSection()
             Column(
                 horizontalAlignment = Alignment.CenterHorizontally,
-                modifier = Modifier.padding(horizontal = 45.dp)
+                modifier = Modifier.padding(horizontal = 24.dp)
             ) {
                 IconComponent()
                 Spacer(Modifier.size(18.dp))
@@ -69,30 +77,59 @@ fun GroupScreen(modifier: Modifier = Modifier) {
                     fontWeight = FontWeight.Normal,
                     style = MaterialTheme.typography.bodyMedium,
                 )
-                Spacer(Modifier.size(12.dp))
-                Text(
-                    text = "Tip: scan a receipt and we'll fill in the rest",
-                    color = MaterialTheme.colorScheme.onBackground,
-                    modifier = modifier.background(
-                        MaterialTheme.colorScheme.onTertiary,
-                        shape = RoundedCornerShape(10.dp)
-                    ),
-                    fontWeight = FontWeight.Normal,
-                    textAlign = TextAlign.Center,
-                    style = MaterialTheme.typography.bodyMedium,
-                )
-                Spacer(Modifier.size(12.dp))
+
             }
-            ButtonSection()
+
+            Column(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalAlignment = Alignment.CenterHorizontally,
+                verticalArrangement = Arrangement.spacedBy(12.dp)
+            ) {
+                TipContainer(Modifier)
+                ButtonSection()
+            }
+        }
+        Spacer(Modifier.height(24.dp))
+
+
+    }
+}
+
+@Preview(showBackground = true, showSystemUi = true)
+@Composable
+fun GroupsScreenPreview() {
+    FairShareTheme {
+        val scrollBehavior = TopAppBarDefaults.enterAlwaysScrollBehavior()
+        Scaffold(
+            topBar = { TopBar(scrollBehavior = scrollBehavior) },
+            bottomBar = { BotBar() }
+        ) { paddingValues ->
+            Screen(modifier = Modifier.padding(paddingValues))
         }
     }
 }
 
-@Preview(showBackground = true)
+
 @Composable
-fun GroupsScreenPreview() {
-    FairShareTheme {
-        GroupScreen(modifier = Modifier.padding(16.dp))
+fun TipContainer(modifier: Modifier) {
+    Surface(
+        color = MaterialTheme.colorScheme.tertiaryContainer,
+        shape = RoundedCornerShape(16.dp)
+    ) {
+        Row(
+            modifier = Modifier.padding(16.dp),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            Icon(
+                imageVector = Icons.Default.Lightbulb,
+                contentDescription = null,
+                tint = MaterialTheme.colorScheme.onTertiaryContainer
+            )
+            Text(
+                text = "Tip: scan a receipt and we'll fill in the rest",
+                color = MaterialTheme.colorScheme.onTertiaryContainer
+            )
+        }
     }
 }
 
