@@ -1,3 +1,3 @@
 package com.fairshare.dto;
 
-public record CreateGroupDTO(String name) { }
+public record CreateGroupDTO(String name, String icon) { }
